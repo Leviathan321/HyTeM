@@ -1,0 +1,163 @@
+
+Formula 1: FA pi[0] :  always( ( pi[0][1] == 0  )   until  ( ( pi[0][2] == 2  ) --> ( pi[0][1] == 1  ) ) );
+
+
+Formula 2: FA pi[0] :  always( ( pi[0][1] == 0  ) --> (  not ( pi[0][1] == 1  ) ) );
+
+
+Formula 3: FA pi[0] :  always( ( pi[0][2] == 2  )   until  ( ( pi[0][2] == 2  ) --> ( pi[0][2] == 0  ) ) );
+
+
+Formula 4: FA pi[0] :  always(  not ( ( pi[0][4] == 2  )  and  ( pi[0][0] == 2  ) ) );
+
+
+Formula 5: FA pi[0] :  always( ( ( pi[0][0] == 1  )  and  ( pi[0][0] == 0  ) ) --> ( pi[0][1] == 2  ) );
+
+
+Formula 6: FA pi[0] :  always( ( pi[0][3] == 1  ) --> (  not ( pi[0][3] == 0  ) ) );
+
+
+Formula 7: FA pi[0] :  always( (  not ( pi[0][2] == 0  ) )  or  (  not ( pi[0][2] == 1  ) ) );
+
+
+Formula 8: FA pi[0] :  always( ( pi[0][0] == 2  ) --> (  s_next (  not ( pi[0][1] == 2  ) ) ) );
+
+
+Formula 9: FA pi[0] :  always( (  s_next ( pi[0][3] == 2  ) ) --> (  not ( pi[0][4] == 2  ) ) );
+
+
+Formula 10: FA pi[0] :  always( ( pi[0][3] == 2  ) --> (  not ( pi[0][3] == 0  ) ) );
+
+
+Formula 11: FA pi[0] :  always( ( pi[0][0] == 0  ) --> ( ( pi[0][0] == 1  )   until  ( pi[0][0] == 0  ) ) );
+
+
+Formula 12: FA pi[0] :  always( ( ( pi[0][2] == 2  )  and  ( pi[0][0] == 0  ) ) --> ( pi[0][0] == 0  ) );
+
+
+Formula 13: FA pi[0] :  always(  not ( ( pi[0][1] == 0  )  and  ( pi[0][1] == 1  ) ) );
+
+
+Formula 14: FA pi[0] :  always( ( pi[0][0] == 2  ) --> (  not (  s_next ( pi[0][4] == 2  ) ) ) );
+
+
+Formula 15: FA pi[0] :  always(  not ( ( pi[0][0] == 2  )  and  ( pi[0][4] == 2  ) ) );
+
+
+Formula 16: FA pi[0] :  always( ( pi[0][4] == 0  ) --> ( ( pi[0][3] == 1  )  or  ( pi[0][4] == 0  ) ) );
+
+
+Formula 17: FA pi[0] :  always( ( pi[0][1] == 2  ) --> (  s_next (  not ( pi[0][1] == 1  ) ) ) );
+
+
+Formula 18: FA pi[0] :  always(  not ( ( pi[0][0] == 1  )  and  (  s_next ( pi[0][0] == 0  ) ) ) );
+
+
+Formula 19: FA pi[0] :  always(  not ( ( pi[0][3] == 1  )  and  ( pi[0][2] == 1  ) ) );
+
+
+Formula 20: FA pi[0] :  always( ( pi[0][2] == 2  ) --> ( ( pi[0][1] == 2  ) --> ( pi[0][3] == 2  ) ) );
+
+
+Formula 21: FA pi[0] :  always( ( pi[0][4] == 2  ) --> (  not ( pi[0][4] == 1  ) ) );
+
+
+Formula 22: FA pi[0] :  always(  not ( (  s_next ( pi[0][3] == 1  ) )  and  ( pi[0][3] == 2  ) ) );
+
+
+Formula 23: FA pi[0] :  always( ( pi[0][2] == 2  ) --> ( ( pi[0][3] == 2  )   until  ( pi[0][2] == 2  ) ) );
+
+
+Formula 24: FA pi[0] :  always( ( pi[0][3] == 2  ) --> (  not ( pi[0][4] == 2  ) ) );
+
+
+Formula 25: FA pi[0] :  always( (  s_next ( pi[0][0] == 0  ) ) --> (  not ( pi[0][0] == 1  ) ) );
+
+
+Formula 26: FA pi[0] :  always(  not ( ( pi[0][0] == 1  )  and  ( pi[0][0] == 0  ) ) );
+
+
+Formula 27: FA pi[0] :  always(  not ( ( pi[0][3] == 2  )  and  ( pi[0][2] == 2  ) ) );
+
+
+Formula 28: FA pi[0] :  always( ( pi[0][2] == 1  ) --> (  not ( pi[0][2] == 2  ) ) );
+
+
+Formula 29: FA pi[0] :  always( ( pi[0][4] == 0  ) --> ( ( pi[0][0] == 1  ) --> ( pi[0][4] == 0  ) ) );
+
+
+Formula 30: FA pi[0] :  always( ( ( pi[0][2] == 1  )  and  ( pi[0][1] == 0  ) ) --> ( pi[0][2] == 1  ) );
+
+
+Formula 31: FA pi[0] :  always( ( pi[0][4] == 0  ) --> ( ( pi[0][4] == 1  ) --> ( pi[0][4] == 2  ) ) );
+
+
+Formula 32: FA pi[0] :  always( ( pi[0][2] == 0  ) --> (  not ( pi[0][2] == 1  ) ) );
+
+
+Formula 33: FA pi[0] :  always( (  not ( pi[0][2] == 2  ) )  or  (  not ( pi[0][2] == 1  ) ) );
+
+
+Formula 34: FA pi[0] :  always( ( pi[0][1] == 2  ) --> ( ( pi[0][1] == 0  ) --> ( pi[0][3] == 2  ) ) );
+
+
+Formula 35: FA pi[0] :  always( (  s_next ( pi[0][1] == 0  ) ) --> (  not ( pi[0][1] == 1  ) ) );
+
+
+Formula 36: FA pi[0] :  always( ( pi[0][2] == 0  ) --> ( ( pi[0][2] == 2  ) --> ( pi[0][0] == 2  ) ) );
+
+
+Formula 37: FA pi[0] :  always( (  not ( pi[0][2] == 1  ) )  or  (  not ( pi[0][2] == 2  ) ) );
+
+
+Formula 38: FA pi[0] :  always( ( pi[0][4] == 1  ) --> (  not ( pi[0][4] == 2  ) ) );
+
+
+Formula 39: FA pi[0] :  always( ( pi[0][0] == 1  ) --> (  not ( pi[0][0] == 0  ) ) );
+
+
+Formula 40: FA pi[0] :  always( ( pi[0][0] == 2  ) --> (  not ( pi[0][0] == 0  ) ) );
+
+
+Formula 41: FA pi[0] :  always( ( pi[0][2] == 2  )  or  ( ( pi[0][1] == 1  ) --> ( pi[0][1] == 1  ) ) );
+
+
+Formula 42: FA pi[0] :  always( ( pi[0][3] == 0  ) --> (  not ( pi[0][3] == 2  ) ) );
+
+
+Formula 43: FA pi[0] :  always( ( pi[0][4] == 1  ) --> (  not ( pi[0][4] == 0  ) ) );
+
+
+Formula 44: FA pi[0] :  always(  not ( ( pi[0][1] == 2  )  and  ( pi[0][0] == 2  ) ) );
+
+
+Formula 45: FA pi[0] :  always( ( pi[0][1] == 0  ) --> (  not ( pi[0][1] == 2  ) ) );
+
+
+Formula 46: FA pi[0] :  always( ( pi[0][2] == 2  ) --> (  not ( pi[0][2] == 1  ) ) );
+
+
+Formula 47: FA pi[0] :  always(  not ( ( pi[0][2] == 0  )  and  ( pi[0][2] == 1  ) ) );
+
+
+Formula 48: FA pi[0] :  always( ( ( pi[0][0] == 1  )   until  ( pi[0][3] == 0  ) ) --> ( pi[0][3] == 0  ) );
+
+
+Formula 49: FA pi[0] :  always( ( ( pi[0][0] == 1  ) --> ( pi[0][4] == 0  ) )  or  ( pi[0][0] == 1  ) );
+
+
+Formula 50: FA pi[0] :  always( ( pi[0][1] == 2  ) --> (  not ( pi[0][2] == 2  ) ) );
+
+
+
+
+
+Variability (SAME TRAINING SAMPLES):
+
+|T_1|      = 50
+
+
+
+Computational time (seconds):
+
+time_learning_1 = 133.40612983703613

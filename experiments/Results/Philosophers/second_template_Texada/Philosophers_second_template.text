@@ -1,0 +1,318 @@
+TEMPLATE SEARCH 
+
+
+Experiment 1:
+
+
+Formula 1: FA pi[0] :  eventually( ( pi[0][4] == 1  )  and ( pi[0][3] == 1  ) );
+
+
+Formula 2: FA pi[0] :  eventually( ( pi[0][1] == 0  )  and ( pi[0][3] == 0  ) );
+
+
+Formula 3: FA pi[0] :  eventually( ( pi[0][2] == 0  )  and ( pi[0][0] == 2  ) );
+
+
+Formula 4: FA pi[0] :  eventually( ( pi[0][1] == 0  )  and ( pi[0][3] == 1  ) );
+
+
+Formula 5: FA pi[0] :  eventually( ( pi[0][4] == 2  )  and ( pi[0][1] == 1  ) );
+
+
+Formula 6: FA pi[0] :  eventually( ( pi[0][1] == 2  )  and ( pi[0][3] == 0  ) );
+
+
+Formula 7: FA pi[0] :  eventually( ( pi[0][2] == 2  )  and ( pi[0][3] == 1  ) );
+
+
+Formula 8: FA pi[0] :  eventually( ( pi[0][4] == 1  )  and ( pi[0][0] == 0  ) );
+
+
+Formula 9: FA pi[0] :  eventually( ( pi[0][4] == 1  )  and ( pi[0][3] == 0  ) );
+
+
+Formula 10: FA pi[0] :  eventually( ( pi[0][2] == 1  )  and ( pi[0][3] == 2  ) );
+
+
+Formula 11: FA pi[0] :  eventually( ( pi[0][1] == 0  )  and ( pi[0][3] == 2  ) );
+
+
+Formula 12: FA pi[0] :  eventually( ( pi[0][3] == 1  )  and ( pi[0][0] == 2  ) );
+
+
+Formula 13: FA pi[0] :  eventually( ( pi[0][4] == 2  )  and ( pi[0][2] == 2  ) );
+
+
+Formula 14: FA pi[0] :  eventually( ( pi[0][0] == 1  )  and ( pi[0][2] == 1  ) );
+
+
+Formula 15: FA pi[0] :  eventually( ( pi[0][1] == 2  )  and ( pi[0][4] == 0  ) );
+
+
+Formula 16: FA pi[0] :  eventually( ( pi[0][0] == 2  )  and ( pi[0][1] == 1  ) );
+
+
+Formula 17: FA pi[0] :  eventually( ( pi[0][2] == 1  )  and ( pi[0][0] == 1  ) );
+
+
+Formula 18: FA pi[0] :  eventually( ( pi[0][1] == 1  )  and ( pi[0][0] == 0  ) );
+
+
+Formula 19: FA pi[0] :  eventually( ( pi[0][0] == 1  )  and ( pi[0][3] == 1  ) );
+
+
+Formula 20: FA pi[0] :  eventually( ( pi[0][3] == 1  )  and ( pi[0][4] == 2  ) );
+
+
+Formula 21: FA pi[0] :  eventually( ( pi[0][3] == 0  )  and ( pi[0][2] == 2  ) );
+
+
+Formula 22: FA pi[0] :  eventually( ( pi[0][3] == 0  )  and ( pi[0][1] == 1  ) );
+
+
+Formula 23: FA pi[0] :  eventually( ( pi[0][1] == 2  )  and ( pi[0][4] == 1  ) );
+
+
+Formula 24: FA pi[0] :  eventually( ( pi[0][0] == 0  )  and ( pi[0][4] == 1  ) );
+
+
+Formula 25: FA pi[0] :  eventually( ( pi[0][1] == 1  )  and ( pi[0][3] == 1  ) );
+
+
+Formula 26: FA pi[0] :  eventually( ( pi[0][1] == 1  )  and ( pi[0][3] == 0  ) );
+
+
+Formula 27: FA pi[0] :  eventually( ( pi[0][3] == 0  )  and ( pi[0][0] == 0  ) );
+
+
+Formula 28: FA pi[0] :  eventually( ( pi[0][3] == 2  )  and ( pi[0][1] == 2  ) );
+
+
+Formula 29: FA pi[0] :  eventually( ( pi[0][3] == 1  )  and ( pi[0][1] == 2  ) );
+
+
+Formula 30: FA pi[0] :  eventually( ( pi[0][2] == 2  )  and ( pi[0][1] == 1  ) );
+
+
+Formula 31: FA pi[0] :  eventually( ( pi[0][1] == 2  )  and ( pi[0][3] == 2  ) );
+
+
+Formula 32: FA pi[0] :  eventually( ( pi[0][1] == 2  )  and ( pi[0][4] == 2  ) );
+
+
+Formula 33: FA pi[0] :  eventually( ( pi[0][1] == 1  )  and ( pi[0][2] == 2  ) );
+
+
+Formula 34: FA pi[0] :  eventually( ( pi[0][0] == 1  )  and ( pi[0][2] == 2  ) );
+
+
+Formula 35: FA pi[0] :  eventually( ( pi[0][1] == 0  )  and ( pi[0][2] == 0  ) );
+
+
+Formula 36: FA pi[0] :  eventually( ( pi[0][4] == 2  )  and ( pi[0][3] == 0  ) );
+
+
+Formula 37: FA pi[0] :  eventually( ( pi[0][2] == 0  )  and ( pi[0][4] == 2  ) );
+
+
+Formula 38: FA pi[0] :  eventually( ( pi[0][2] == 0  )  and ( pi[0][0] == 0  ) );
+
+
+Formula 39: FA pi[0] :  eventually( ( pi[0][0] == 0  )  and ( pi[0][2] == 1  ) );
+
+
+Formula 40: FA pi[0] :  eventually( ( pi[0][0] == 1  )  and ( pi[0][3] == 2  ) );
+
+
+Formula 41: FA pi[0] :  eventually( ( pi[0][1] == 1  )  and ( pi[0][0] == 2  ) );
+
+
+Formula 42: FA pi[0] :  eventually( ( pi[0][0] == 1  )  and ( pi[0][4] == 0  ) );
+
+
+Formula 43: FA pi[0] :  eventually( ( pi[0][2] == 0  )  and ( pi[0][3] == 0  ) );
+
+
+Formula 44: FA pi[0] :  eventually( ( pi[0][1] == 1  )  and ( pi[0][2] == 1  ) );
+
+
+Formula 45: FA pi[0] :  eventually( ( pi[0][2] == 1  )  and ( pi[0][1] == 2  ) );
+
+
+Formula 46: FA pi[0] :  eventually( ( pi[0][4] == 1  )  and ( pi[0][1] == 1  ) );
+
+
+Formula 47: FA pi[0] :  eventually( ( pi[0][2] == 0  )  and ( pi[0][1] == 1  ) );
+
+
+Formula 48: FA pi[0] :  eventually( ( pi[0][3] == 0  )  and ( pi[0][4] == 1  ) );
+
+
+Formula 49: FA pi[0] :  eventually( ( pi[0][3] == 2  )  and ( pi[0][0] == 2  ) );
+
+
+Formula 50: FA pi[0] :  eventually( ( pi[0][3] == 1  )  and ( pi[0][1] == 1  ) );
+
+
+Formula 51: FA pi[0] :  eventually( ( pi[0][4] == 0  )  and ( pi[0][3] == 2  ) );
+
+
+Formula 52: FA pi[0] :  eventually( ( pi[0][4] == 1  )  and ( pi[0][0] == 2  ) );
+
+
+Formula 53: FA pi[0] :  eventually( ( pi[0][2] == 2  )  and ( pi[0][4] == 0  ) );
+
+
+Formula 54: FA pi[0] :  eventually( ( pi[0][3] == 1  )  and ( pi[0][1] == 0  ) );
+
+
+Formula 55: FA pi[0] :  eventually( ( pi[0][0] == 2  )  and ( pi[0][4] == 1  ) );
+
+
+Formula 56: FA pi[0] :  eventually( ( pi[0][1] == 2  )  and ( pi[0][0] == 0  ) );
+
+
+Formula 57: FA pi[0] :  eventually( ( pi[0][2] == 1  )  and ( pi[0][1] == 0  ) );
+
+
+Formula 58: FA pi[0] :  eventually( ( pi[0][0] == 0  )  and ( pi[0][1] == 0  ) );
+
+
+Formula 59: FA pi[0] :  eventually( ( pi[0][1] == 1  )  and ( pi[0][3] == 2  ) );
+
+
+Formula 60: FA pi[0] :  eventually( ( pi[0][1] == 0  )  and ( pi[0][0] == 2  ) );
+
+
+Formula 61: FA pi[0] :  eventually( ( pi[0][0] == 2  )  and ( pi[0][4] == 0  ) );
+
+
+Formula 62: FA pi[0] :  eventually( ( pi[0][0] == 0  )  and ( pi[0][2] == 0  ) );
+
+
+Formula 63: FA pi[0] :  eventually( ( pi[0][1] == 0  )  and ( pi[0][4] == 2  ) );
+
+
+Formula 64: FA pi[0] :  eventually( ( pi[0][4] == 0  )  and ( pi[0][2] == 1  ) );
+
+
+Formula 65: FA pi[0] :  eventually( ( pi[0][0] == 1  )  and ( pi[0][1] == 1  ) );
+
+
+Formula 66: FA pi[0] :  eventually( ( pi[0][3] == 1  )  and ( pi[0][4] == 1  ) );
+
+
+Formula 67: FA pi[0] :  eventually( ( pi[0][4] == 1  )  and ( pi[0][2] == 2  ) );
+
+
+Formula 68: FA pi[0] :  eventually( ( pi[0][3] == 2  )  and ( pi[0][0] == 1  ) );
+
+
+Formula 69: FA pi[0] :  eventually( ( pi[0][4] == 0  )  and ( pi[0][1] == 0  ) );
+
+
+Formula 70: FA pi[0] :  eventually( ( pi[0][0] == 2  )  and ( pi[0][2] == 2  ) );
+
+
+Formula 71: FA pi[0] :  eventually( ( pi[0][4] == 0  )  and ( pi[0][3] == 0  ) );
+
+
+Formula 72: FA pi[0] :  eventually( ( pi[0][1] == 2  )  and ( pi[0][2] == 0  ) );
+
+
+Formula 73: FA pi[0] :  eventually( ( pi[0][0] == 0  )  and ( pi[0][4] == 0  ) );
+
+
+Formula 74: FA pi[0] :  eventually( ( pi[0][2] == 1  )  and ( pi[0][1] == 1  ) );
+
+
+Formula 75: FA pi[0] :  eventually( ( pi[0][2] == 2  )  and ( pi[0][4] == 2  ) );
+
+
+Formula 76: FA pi[0] :  eventually( ( pi[0][3] == 2  )  and ( pi[0][4] == 0  ) );
+
+
+Formula 77: FA pi[0] :  eventually( ( pi[0][2] == 0  )  and ( pi[0][3] == 1  ) );
+
+
+Formula 78: FA pi[0] :  eventually( ( pi[0][4] == 0  )  and ( pi[0][2] == 0  ) );
+
+
+Formula 79: FA pi[0] :  eventually( ( pi[0][3] == 0  )  and ( pi[0][4] == 2  ) );
+
+
+Formula 80: FA pi[0] :  eventually( ( pi[0][0] == 2  )  and ( pi[0][3] == 2  ) );
+
+
+Formula 81: FA pi[0] :  eventually( ( pi[0][0] == 0  )  and ( pi[0][1] == 1  ) );
+
+
+Formula 82: FA pi[0] :  eventually( ( pi[0][3] == 0  )  and ( pi[0][2] == 1  ) );
+
+
+Formula 83: FA pi[0] :  eventually( ( pi[0][3] == 2  )  and ( pi[0][2] == 1  ) );
+
+
+Formula 84: FA pi[0] :  eventually( ( pi[0][4] == 1  )  and ( pi[0][2] == 1  ) );
+
+
+Formula 85: FA pi[0] :  eventually( ( pi[0][0] == 2  )  and ( pi[0][2] == 0  ) );
+
+
+Formula 86: FA pi[0] :  eventually( ( pi[0][0] == 1  )  and ( pi[0][1] == 2  ) );
+
+
+Formula 87: FA pi[0] :  eventually( ( pi[0][3] == 2  )  and ( pi[0][0] == 0  ) );
+
+
+Formula 88: FA pi[0] :  eventually( ( pi[0][1] == 2  )  and ( pi[0][2] == 1  ) );
+
+
+Formula 89: FA pi[0] :  eventually( ( pi[0][1] == 1  )  and ( pi[0][4] == 0  ) );
+
+
+Formula 90: FA pi[0] :  eventually( ( pi[0][4] == 1  )  and ( pi[0][1] == 2  ) );
+
+
+Formula 91: FA pi[0] :  eventually( ( pi[0][3] == 2  )  and ( pi[0][2] == 0  ) );
+
+
+Formula 92: FA pi[0] :  eventually( ( pi[0][4] == 0  )  and ( pi[0][0] == 0  ) );
+
+
+Formula 93: FA pi[0] :  eventually( ( pi[0][3] == 1  )  and ( pi[0][0] == 1  ) );
+
+
+Formula 94: FA pi[0] :  eventually( ( pi[0][2] == 1  )  and ( pi[0][3] == 0  ) );
+
+
+Formula 95: FA pi[0] :  eventually( ( pi[0][0] == 2  )  and ( pi[0][2] == 1  ) );
+
+
+Formula 96: FA pi[0] :  eventually( ( pi[0][4] == 2  )  and ( pi[0][3] == 1  ) );
+
+
+Formula 97: FA pi[0] :  eventually( ( pi[0][2] == 0  )  and ( pi[0][1] == 2  ) );
+
+
+Formula 98: FA pi[0] :  eventually( ( pi[0][4] == 0  )  and ( pi[0][1] == 1  ) );
+
+
+Formula 99: FA pi[0] :  eventually( ( pi[0][2] == 2  )  and ( pi[0][3] == 0  ) );
+
+
+Formula 100: FA pi[0] :  eventually( ( pi[0][4] == 2  )  and ( pi[0][0] == 0  ) );
+
+
+
+
+
+Variability (SAME TRAINING SAMPLES):
+
+|T_1|      = 100
+
+
+
+Computational time (seconds):
+
+time_learning_1 = 1.0832147598266602

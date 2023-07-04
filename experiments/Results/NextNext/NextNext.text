@@ -1,0 +1,1768 @@
+TEMPLATE SEARCH 
+
+
+Experiment 1:
+
+
+Formula 1: FA pi[0] :  always ( (  eventually (  eventually (  not ( pi[0][1] == True  ) ) ) )  or  ( pi[0][0] == True  ) );
+
+
+Formula 2: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 3: FA pi[0] :  always ( ( pi[0][0] == True  ) --> (  not (  always ( pi[0][1] == True  ) ) ) );
+
+
+Formula 4: FA pi[0] :  always ( ( pi[0][1] == True  ) --> (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 5: FA pi[0] :  always ( (  not ( pi[0][1] == True  ) )  or  (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 6: FA pi[0] :  always (  eventually (  not ( ( pi[0][0] == True  )  and  ( pi[0][1] == True  ) ) ) );
+
+
+Formula 7: FA pi[0] :  always (  eventually (  always ( ( pi[0][0] == True  )  until  (  not ( pi[0][1] == True  ) ) ) ) );
+
+
+Formula 8: FA pi[0] :  always (  eventually ( (  s_next ( pi[0][0] == True  ) ) <--> ( pi[0][1] == True  ) ) );
+
+
+Formula 9: FA pi[0] :  always ( (  eventually ( pi[0][1] == True  ) ) --> (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 10: FA pi[0] :  always ( (  always ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 11: FA pi[0] :  always (  eventually ( (  not ( pi[0][1] == True  ) )  or  ( pi[0][0] == True  ) ) );
+
+
+Formula 12: FA pi[0] :  always (  eventually (  not ( ( pi[0][1] == True  )  and  ( pi[0][0] == True  ) ) ) );
+
+
+Formula 13: FA pi[0] :  always (  eventually (  not (  s_next ( ( pi[0][1] == True  )  until  ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 14: FA pi[0] :  always ( (  eventually (  not ( pi[0][1] == True  ) ) )  or  (  s_next ( pi[0][0] == True  ) ) );
+
+
+Formula 15: FA pi[0] :  always (  not (  eventually (  always ( ( pi[0][1] == True  )  and  ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 16: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> (  always ( pi[0][0] == True  ) ) ) );
+
+
+Formula 17: FA pi[0] :  always (  eventually (  always (  not ( ( pi[0][0] == True  )  and  ( pi[0][1] == True  ) ) ) ) );
+
+
+Formula 18: FA pi[0] :  always ( (  always (  eventually ( pi[0][1] == True  ) ) ) --> (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 19: FA pi[0] :  always ( ( pi[0][0] == True  )  until  (  eventually (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 20: FA pi[0] :  always ( (  eventually (  not ( pi[0][1] == True  ) ) )  or  ( pi[0][0] == True  ) );
+
+
+Formula 21: FA pi[0] :  always ( (  eventually ( pi[0][0] == True  ) )  until  (  not ( pi[0][1] == True  ) ) );
+
+
+Formula 22: FA pi[0] :  always ( (  eventually (  s_next (  always ( pi[0][1] == True  ) ) ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 23: FA pi[0] :  always ( (  eventually ( pi[0][0] == True  ) )  or  (  eventually (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 24: FA pi[0] :  always ( ( pi[0][0] == True  )  until  (  not (  always ( pi[0][1] == True  ) ) ) );
+
+
+Formula 25: FA pi[0] :  always ( ( pi[0][0] == True  )  until  ( (  always ( pi[0][1] == True  ) ) --> ( pi[0][1] == True  ) ) );
+
+
+Formula 26: FA pi[0] :  always ( ( (  not ( pi[0][0] == True  ) )  or  ( pi[0][0] == True  ) )  or  ( pi[0][1] == True  ) );
+
+
+Formula 27: FA pi[0] :  always (  always (  eventually ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) ) );
+
+
+Formula 28: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> (  not ( pi[0][0] == True  ) ) ) );
+
+
+Formula 29: FA pi[0] :  always ( ( pi[0][0] == True  ) --> ( ( pi[0][1] == True  )  until  ( pi[0][0] == True  ) ) );
+
+
+Formula 30: FA pi[0] :  always ( ( pi[0][0] == True  )  or  (  eventually (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 31: FA pi[0] :  always ( (  s_next (  s_next ( pi[0][0] == True  ) ) ) --> ( pi[0][1] == True  ) );
+
+
+Formula 32: FA pi[0] :  always ( (  not (  eventually ( pi[0][1] == True  ) ) )  or  (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 33: FA pi[0] :  always (  not ( (  s_next ( pi[0][0] == True  ) )  and  (  always ( pi[0][1] == True  ) ) ) );
+
+
+Formula 34: FA pi[0] :  always (  eventually (  always ( ( pi[0][1] == True  ) --> (  not ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 35: FA pi[0] :  always (  not ( (  always ( pi[0][1] == True  ) )  and  ( pi[0][0] == True  ) ) );
+
+
+Formula 36: FA pi[0] :  always (  eventually ( (  s_next (  eventually ( pi[0][1] == True  ) ) ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 37: FA pi[0] :  always (  not ( ( pi[0][0] == True  )  until  (  always ( pi[0][1] == True  ) ) ) );
+
+
+Formula 38: FA pi[0] :  always ( ( ( pi[0][0] == True  ) <--> ( pi[0][1] == True  ) )  or  (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 39: FA pi[0] :  always ( ( pi[0][1] == True  )  or  (  not ( ( pi[0][0] == True  )  and  ( pi[0][1] == True  ) ) ) );
+
+
+Formula 40: FA pi[0] :  always ( ( pi[0][1] == True  ) --> ( ( pi[0][0] == True  ) --> ( pi[0][1] == True  ) ) );
+
+
+Formula 41: FA pi[0] :  always (  eventually ( (  eventually ( pi[0][0] == True  ) ) --> (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 42: FA pi[0] :  always ( ( pi[0][1] == True  ) <--> (  s_next (  s_next ( pi[0][0] == True  ) ) ) );
+
+
+Formula 43: FA pi[0] :  always ( ( ( pi[0][0] == True  ) <--> ( pi[0][0] == True  ) )  or  ( pi[0][1] == True  ) );
+
+
+
+Experiment 2:
+
+
+Formula 1: FA pi[0] :  always ( (  always ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 2: FA pi[0] :  always (  not (  always ( ( pi[0][0] == True  )  and  ( pi[0][1] == True  ) ) ) );
+
+
+Formula 3: FA pi[0] :  always ( ( pi[0][1] == True  ) --> (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 4: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 5: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> ( ( pi[0][0] == True  )  and  ( pi[0][0] == True  ) ) ) );
+
+
+Formula 6: FA pi[0] :  always ( (  eventually ( pi[0][0] == True  ) )  or  (  not ( pi[0][1] == True  ) ) );
+
+
+Formula 7: FA pi[0] :  always (  eventually ( (  not ( pi[0][1] == True  ) )  or  (  s_next ( pi[0][0] == True  ) ) ) );
+
+
+Formula 8: FA pi[0] :  always (  eventually (  not ( ( pi[0][0] == True  )  until  ( pi[0][1] == True  ) ) ) );
+
+
+Formula 9: FA pi[0] :  always ( ( pi[0][0] == True  ) --> ( ( pi[0][1] == True  )  until  ( pi[0][0] == True  ) ) );
+
+
+Formula 10: FA pi[0] :  always ( ( pi[0][0] == True  ) --> ( ( pi[0][1] == True  ) <--> ( pi[0][1] == True  ) ) );
+
+
+Formula 11: FA pi[0] :  always ( ( pi[0][1] == True  ) --> (  eventually (  s_next (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 12: FA pi[0] :  always (  eventually (  not (  always ( ( pi[0][0] == True  )  until  ( pi[0][1] == True  ) ) ) ) );
+
+
+Formula 13: FA pi[0] :  always (  eventually ( ( pi[0][0] == True  ) --> (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 14: FA pi[0] :  always ( (  always ( pi[0][1] == True  ) ) --> (  always ( pi[0][0] == True  ) ) );
+
+
+Formula 15: FA pi[0] :  always (  eventually ( (  always ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 16: FA pi[0] :  always (  eventually ( ( pi[0][0] == True  )  or  (  eventually (  not ( pi[0][1] == True  ) ) ) ) );
+
+
+Formula 17: FA pi[0] :  always ( (  eventually ( pi[0][1] == True  ) ) --> (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 18: FA pi[0] :  always ( ( pi[0][0] == True  ) --> ( (  s_next ( pi[0][1] == True  ) )  or  ( pi[0][0] == True  ) ) );
+
+
+Formula 19: FA pi[0] :  always (  eventually ( ( pi[0][0] == True  )  or  (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 20: FA pi[0] :  always (  eventually ( ( ( pi[0][1] == True  )  until  ( pi[0][0] == True  ) ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 21: FA pi[0] :  always ( (  always (  eventually (  always ( pi[0][1] == True  ) ) ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 22: FA pi[0] :  always ( ( pi[0][1] == True  )  until  ( ( pi[0][1] == True  ) --> (  always ( pi[0][0] == True  ) ) ) );
+
+
+Formula 23: FA pi[0] :  always (  not ( ( pi[0][0] == True  )  until  (  s_next (  always ( pi[0][1] == True  ) ) ) ) );
+
+
+Formula 24: FA pi[0] :  always (  eventually ( (  eventually (  not ( pi[0][1] == True  ) ) )  or  ( pi[0][0] == True  ) ) );
+
+
+Formula 25: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> (  eventually ( pi[0][0] == True  ) ) ) );
+
+
+Formula 26: FA pi[0] :  always (  eventually ( (  s_next ( pi[0][0] == True  ) ) --> (  eventually ( pi[0][1] == True  ) ) ) );
+
+
+Formula 27: FA pi[0] :  always ( ( pi[0][1] == True  )  or  ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 28: FA pi[0] :  always ( (  eventually ( pi[0][0] == True  ) )  until  ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 29: FA pi[0] :  always ( (  s_next (  always ( pi[0][1] == True  ) ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 30: FA pi[0] :  always ( ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) )  or  (  not ( pi[0][0] == True  ) ) );
+
+
+Formula 31: FA pi[0] :  always (  not (  s_next ( ( pi[0][0] == True  )  and  (  always ( pi[0][1] == True  ) ) ) ) );
+
+
+Formula 32: FA pi[0] :  always ( ( pi[0][0] == True  )  until  (  not (  always ( pi[0][1] == True  ) ) ) );
+
+
+Formula 33: FA pi[0] :  always ( (  s_next ( pi[0][1] == True  ) ) --> ( ( pi[0][0] == True  ) <--> ( pi[0][0] == True  ) ) );
+
+
+Formula 34: FA pi[0] :  always ( ( pi[0][0] == True  ) --> ( ( pi[0][1] == True  ) --> ( pi[0][1] == True  ) ) );
+
+
+Formula 35: FA pi[0] :  always (  always ( ( pi[0][1] == True  ) --> (  s_next (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 36: FA pi[0] :  always ( (  eventually ( pi[0][0] == True  ) )  until  ( ( pi[0][1] == True  ) <--> ( pi[0][1] == True  ) ) );
+
+
+Formula 37: FA pi[0] :  always ( ( pi[0][0] == True  ) --> (  not (  always (  always ( pi[0][1] == True  ) ) ) ) );
+
+
+Formula 38: FA pi[0] :  always ( (  s_next ( pi[0][0] == True  ) )  until  (  not (  always ( pi[0][1] == True  ) ) ) );
+
+
+Formula 39: FA pi[0] :  always ( (  eventually (  always ( pi[0][1] == True  ) ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 40: FA pi[0] :  always ( ( ( pi[0][0] == True  )  until  ( pi[0][1] == True  ) ) --> (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 41: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> (  eventually (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 42: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) <--> ( ( pi[0][0] == True  )  until  ( pi[0][1] == True  ) ) ) );
+
+
+Formula 43: FA pi[0] :  always (  not ( ( pi[0][0] == True  )  and  (  always ( pi[0][1] == True  ) ) ) );
+
+
+Formula 44: FA pi[0] :  always (  eventually (  eventually (  not ( ( pi[0][0] == True  )  and  ( pi[0][1] == True  ) ) ) ) );
+
+
+Formula 45: FA pi[0] :  always ( (  s_next (  s_next ( pi[0][0] == True  ) ) )  or  (  not ( pi[0][1] == True  ) ) );
+
+
+Formula 46: FA pi[0] :  always (  always ( (  always ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 47: FA pi[0] :  always ( ( pi[0][0] == True  ) --> (  eventually (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 48: FA pi[0] :  always (  eventually ( (  not ( pi[0][0] == True  ) )  until  (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 49: FA pi[0] :  always (  eventually (  not ( ( pi[0][0] == True  )  and  (  eventually ( pi[0][1] == True  ) ) ) ) );
+
+
+
+Experiment 3:
+
+
+
+Formula 1: FA pi[0] :  always ( (  s_next (  eventually ( pi[0][1] == True  ) ) ) --> (  eventually ( pi[0][0] == True  ) ) );
+
+
+
+Formula 2: FA pi[0] :  always ( (  eventually (  eventually (  always ( pi[0][1] == True  ) ) ) ) --> ( pi[0][0] == True  ) );
+
+
+
+Formula 3: FA pi[0] :  always (  not (  always (  s_next ( ( pi[0][1] == True  )  and  ( pi[0][0] == True  ) ) ) ) );
+
+
+
+Formula 4: FA pi[0] :  always ( ( pi[0][1] == True  ) <--> (  s_next (  s_next ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 5: FA pi[0] :  always ( (  always ( pi[0][1] == True  ) ) --> (  eventually ( pi[0][0] == True  ) ) );
+
+
+
+Formula 6: FA pi[0] :  always ( (  s_next (  s_next ( pi[0][0] == True  ) ) ) <--> ( pi[0][1] == True  ) );
+
+
+
+Formula 7: FA pi[0] :  always (  eventually (  eventually ( (  not ( pi[0][1] == True  ) )  or  ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 8: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  )  or  (  not (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+
+Formula 9: FA pi[0] :  always (  eventually (  eventually ( (  s_next ( pi[0][0] == True  ) ) <--> ( pi[0][1] == True  ) ) ) );
+
+
+
+Formula 10: FA pi[0] :  always (  not (  always (  s_next ( ( pi[0][0] == True  ) --> ( pi[0][1] == True  ) ) ) ) );
+
+
+
+Formula 11: FA pi[0] :  always (  not (  always ( (  not ( pi[0][0] == True  ) )  until  ( pi[0][1] == True  ) ) ) );
+
+
+
+Formula 12: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> (  always ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 13: FA pi[0] :  always ( ( pi[0][1] == True  ) --> (  eventually ( pi[0][0] == True  ) ) );
+
+
+
+Formula 14: FA pi[0] :  always ( (  s_next (  eventually ( pi[0][0] == True  ) ) )  or  (  not ( pi[0][1] == True  ) ) );
+
+
+
+Formula 15: FA pi[0] :  always ( (  always ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) );
+
+
+
+Formula 16: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  )  or  ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 17: FA pi[0] :  always (  always ( ( pi[0][1] == True  )  until  ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 18: FA pi[0] :  always ( (  not ( pi[0][1] == True  ) )  or  (  eventually (  eventually ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 19: FA pi[0] :  always (  eventually (  not ( ( pi[0][0] == True  )  until  ( pi[0][1] == True  ) ) ) );
+
+
+
+Formula 20: FA pi[0] :  always ( (  always ( pi[0][1] == True  ) ) --> (  always ( pi[0][0] == True  ) ) );
+
+
+
+Formula 21: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> (  not ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 22: FA pi[0] :  always ( ( pi[0][1] == True  ) --> ( ( pi[0][0] == True  )  or  ( pi[0][1] == True  ) ) );
+
+
+
+Formula 23: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) <--> (  s_next ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 24: FA pi[0] :  always ( (  not (  always ( pi[0][1] == True  ) ) )  or  (  eventually ( pi[0][0] == True  ) ) );
+
+
+
+Formula 25: FA pi[0] :  always ( (  s_next ( pi[0][1] == True  ) ) --> (  eventually ( pi[0][0] == True  ) ) );
+
+
+
+Formula 26: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) );
+
+
+
+Formula 27: FA pi[0] :  always ( ( ( pi[0][1] == True  )  and  ( pi[0][0] == True  ) ) --> ( pi[0][1] == True  ) );
+
+
+
+Formula 28: FA pi[0] :  always (  always (  eventually ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 29: FA pi[0] :  always ( ( pi[0][0] == True  ) --> ( ( pi[0][1] == True  ) --> ( pi[0][1] == True  ) ) );
+
+
+
+Formula 30: FA pi[0] :  always ( ( pi[0][1] == True  ) --> ( ( pi[0][1] == True  )  or  ( pi[0][0] == True  ) ) );
+
+
+
+Formula 31: FA pi[0] :  always ( ( pi[0][1] == True  ) --> (  eventually (  eventually ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 32: FA pi[0] :  always (  always ( (  s_next ( pi[0][1] == True  ) ) --> (  eventually ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 33: FA pi[0] :  always (  eventually ( ( pi[0][0] == True  ) --> (  not ( pi[0][1] == True  ) ) ) );
+
+
+
+Formula 34: FA pi[0] :  always ( ( pi[0][0] == True  )  until  (  eventually (  not ( pi[0][1] == True  ) ) ) );
+
+
+
+Formula 35: FA pi[0] :  always ( ( ( pi[0][0] == True  ) <--> ( pi[0][0] == True  ) )  or  ( pi[0][1] == True  ) );
+
+
+
+Formula 36: FA pi[0] :  always ( ( ( pi[0][1] == True  ) --> ( pi[0][1] == True  ) )  or  ( pi[0][0] == True  ) );
+
+
+
+Formula 37: FA pi[0] :  always ( ( pi[0][0] == True  )  or  (  eventually (  not ( pi[0][1] == True  ) ) ) );
+
+
+
+Formula 38: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> (  s_next (  eventually ( pi[0][0] == True  ) ) ) ) );
+
+
+
+Formula 39: FA pi[0] :  always (  eventually (  not ( ( pi[0][1] == True  )  until  (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+
+Formula 40: FA pi[0] :  always (  always ( (  eventually ( pi[0][0] == True  ) )  or  (  not ( pi[0][1] == True  ) ) ) );
+
+
+
+Formula 41: FA pi[0] :  always (  not ( ( pi[0][0] == True  )  and  (  eventually (  always ( pi[0][1] == True  ) ) ) ) );
+
+
+
+Formula 42: FA pi[0] :  always (  always ( (  always ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) ) );
+
+
+
+Formula 43: FA pi[0] :  always ( ( pi[0][1] == True  )  or  ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) );
+
+
+
+Formula 44: FA pi[0] :  always (  eventually ( ( pi[0][0] == True  )  or  ( ( pi[0][1] == True  ) <--> ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 45: FA pi[0] :  always (  eventually ( (  s_next ( pi[0][0] == True  ) ) <--> ( pi[0][1] == True  ) ) );
+
+
+
+Formula 46: FA pi[0] :  always (  always ( ( pi[0][1] == True  ) --> (  eventually ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 47: FA pi[0] :  always ( (  always ( ( pi[0][0] == True  )  until  ( pi[0][1] == True  ) ) ) --> ( pi[0][1] == True  ) );
+
+
+
+Formula 48: FA pi[0] :  always ( ( pi[0][1] == True  )  or  (  eventually (  not (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+
+Formula 49: FA pi[0] :  always (  eventually (  always ( (  not ( pi[0][1] == True  ) )  or  ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 50: FA pi[0] :  always ( (  always (  s_next ( pi[0][0] == True  ) ) ) --> ( pi[0][1] == True  ) );
+
+
+
+
+
+Variability (DIFFERENT TRAINING SAMPLES):
+
+|T_1| = 43
+|T_2| = 49
+|T_3| = 50
+|T|   = 119
+Variability   = 0.7570422535211268
+
+
+
+Ratio of false positives:
+
+ratio_false_positives_1 = 0.18604651162790697
+ratio_false_positives_2 = 0.22448979591836735
+ratio_false_positives_3 = 0.28
+
+Average = 0.23 +- 0.03
+
+
+
+Ratio of false negatives:
+
+ratio_false_negatives_1 = 0.0
+ratio_false_negatives_2 = 0.0
+ratio_false_negatives_3 = 0.0
+
+Average = 0.0 +- 0.0
+
+
+Second run with the same traces as Experiment 1:
+
+
+Formula 1: FA pi[0] :  always ( ( pi[0][1] == True  ) --> (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 2: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 3: FA pi[0] :  always ( (  always ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 4: FA pi[0] :  always ( (  s_next ( pi[0][0] == True  ) ) --> ( ( pi[0][1] == True  ) --> ( pi[0][1] == True  ) ) );
+
+
+Formula 5: FA pi[0] :  always (  eventually ( (  s_next (  not ( pi[0][0] == True  ) ) ) --> ( pi[0][1] == True  ) ) );
+
+
+Formula 6: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> (  not ( pi[0][0] == True  ) ) ) );
+
+
+Formula 7: FA pi[0] :  always ( ( ( pi[0][0] == True  ) --> (  eventually ( pi[0][1] == True  ) ) )  or  ( pi[0][0] == True  ) );
+
+
+Formula 8: FA pi[0] :  always ( (  eventually ( pi[0][0] == True  ) )  until  ( ( pi[0][1] == True  ) --> ( pi[0][1] == True  ) ) );
+
+
+Formula 9: FA pi[0] :  always ( (  always (  eventually ( pi[0][1] == True  ) ) ) --> (  not ( pi[0][0] == True  ) ) );
+
+
+Formula 10: FA pi[0] :  always (  not (  always ( ( pi[0][1] == True  )  and  ( pi[0][0] == True  ) ) ) );
+
+
+Formula 11: FA pi[0] :  always ( ( ( pi[0][1] == True  )  and  (  s_next ( pi[0][0] == True  ) ) ) --> ( pi[0][1] == True  ) );
+
+
+Formula 12: FA pi[0] :  always (  eventually ( (  s_next ( pi[0][0] == True  ) ) --> ( pi[0][1] == True  ) ) );
+
+
+Formula 13: FA pi[0] :  always ( (  not ( pi[0][1] == True  ) )  or  (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 14: FA pi[0] :  always ( ( pi[0][1] == True  )  until  (  eventually ( ( pi[0][0] == True  ) <--> ( pi[0][0] == True  ) ) ) );
+
+
+Formula 15: FA pi[0] :  always ( (  eventually ( pi[0][0] == True  ) )  until  (  not ( pi[0][1] == True  ) ) );
+
+
+Formula 16: FA pi[0] :  always ( (  eventually (  always ( pi[0][1] == True  ) ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 17: FA pi[0] :  always ( ( pi[0][1] == True  ) --> ( ( pi[0][1] == True  )  or  ( pi[0][0] == True  ) ) );
+
+
+Formula 18: FA pi[0] :  always ( ( pi[0][0] == True  ) --> ( ( pi[0][0] == True  )  or  ( pi[0][1] == True  ) ) );
+
+
+Formula 19: FA pi[0] :  always (  eventually (  eventually ( ( pi[0][1] == True  ) --> (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 20: FA pi[0] :  always ( ( pi[0][1] == True  )  or  (  eventually (  not (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 21: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> (  always ( pi[0][0] == True  ) ) ) );
+
+
+Formula 22: FA pi[0] :  always ( (  not ( pi[0][0] == True  ) )  or  (  not (  always ( pi[0][1] == True  ) ) ) );
+
+
+Formula 23: FA pi[0] :  always ( (  eventually ( pi[0][0] == True  ) )  until  ( ( pi[0][1] == True  ) <--> ( pi[0][1] == True  ) ) );
+
+
+Formula 24: FA pi[0] :  always (  always ( (  s_next (  s_next ( pi[0][0] == True  ) ) ) <--> ( pi[0][1] == True  ) ) );
+
+
+Formula 25: FA pi[0] :  always ( ( pi[0][0] == True  )  or  (  eventually (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 26: FA pi[0] :  always ( (  always ( pi[0][1] == True  ) ) <--> (  always (  s_next ( pi[0][0] == True  ) ) ) );
+
+
+Formula 27: FA pi[0] :  always (  eventually (  not ( ( pi[0][0] == True  )  until  ( pi[0][1] == True  ) ) ) );
+
+
+Formula 28: FA pi[0] :  always (  always ( ( pi[0][1] == True  )  until  ( ( pi[0][0] == True  ) <--> ( pi[0][0] == True  ) ) ) );
+
+
+Formula 29: FA pi[0] :  always (  eventually ( (  s_next ( pi[0][0] == True  ) )  or  (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 30: FA pi[0] :  always (  not (  always (  always ( ( pi[0][1] == True  )  and  ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 31: FA pi[0] :  always ( ( ( pi[0][1] == True  )  and  ( pi[0][0] == True  ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 32: FA pi[0] :  always ( ( pi[0][1] == True  ) --> (  always ( ( pi[0][0] == True  ) <--> ( pi[0][0] == True  ) ) ) );
+
+
+Formula 33: FA pi[0] :  always ( ( pi[0][1] == True  ) --> (  eventually (  eventually ( pi[0][0] == True  ) ) ) );
+
+
+Formula 34: FA pi[0] :  always (  not ( ( pi[0][0] == True  )  and  (  always (  s_next ( pi[0][1] == True  ) ) ) ) );
+
+
+Formula 35: FA pi[0] :  always (  eventually ( (  eventually ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 36: FA pi[0] :  always ( ( pi[0][0] == True  )  until  ( ( pi[0][1] == True  ) --> ( pi[0][1] == True  ) ) );
+
+
+Formula 37: FA pi[0] :  always ( ( pi[0][0] == True  )  or  ( ( pi[0][0] == True  ) --> ( pi[0][1] == True  ) ) );
+
+
+Formula 38: FA pi[0] :  always (  eventually (  eventually ( ( pi[0][0] == True  )  until  (  not ( pi[0][1] == True  ) ) ) ) );
+
+
+Formula 39: FA pi[0] :  always (  always ( ( pi[0][0] == True  )  or  (  not (  always ( pi[0][1] == True  ) ) ) ) );
+
+
+Formula 40: FA pi[0] :  always ( ( pi[0][1] == True  ) --> (  eventually (  s_next ( pi[0][0] == True  ) ) ) );
+
+
+Formula 41: FA pi[0] :  always ( ( pi[0][0] == True  ) --> ( ( pi[0][0] == True  )  or  (  s_next ( pi[0][1] == True  ) ) ) );
+
+
+Formula 42: FA pi[0] :  always (  eventually ( ( pi[0][0] == True  )  or  (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 43: FA pi[0] :  always ( (  always (  s_next ( pi[0][1] == True  ) ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 44: FA pi[0] :  always ( ( pi[0][1] == True  )  or  ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 45: FA pi[0] :  always ( ( ( pi[0][1] == True  ) <--> ( pi[0][1] == True  ) )  or  ( pi[0][0] == True  ) );
+
+
+Formula 46: FA pi[0] :  always ( ( pi[0][1] == True  ) <--> (  s_next (  s_next ( pi[0][0] == True  ) ) ) );
+
+
+Formula 47: FA pi[0] :  always (  not ( ( pi[0][0] == True  )  and  (  always ( pi[0][1] == True  ) ) ) );
+
+
+Formula 48: FA pi[0] :  always (  not ( ( pi[0][1] == True  )  and  (  always (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 49: FA pi[0] :  always ( (  not ( ( pi[0][0] == True  ) <--> ( pi[0][0] == True  ) ) ) --> ( pi[0][1] == True  ) );
+
+
+Formula 50: FA pi[0] :  always ( (  always (  s_next ( pi[0][0] == True  ) ) ) --> ( pi[0][1] == True  ) );
+
+
+
+
+Third run with the same traces as Experiment 1:
+
+
+Formula 1: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> (  s_next (  eventually ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 2: FA pi[0] :  always ( (  always ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 3: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 4: FA pi[0] :  always (  eventually ( ( pi[0][0] == True  )  or  (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 5: FA pi[0] :  always (  always ( ( pi[0][1] == True  ) --> (  eventually ( pi[0][0] == True  ) ) ) );
+
+
+Formula 6: FA pi[0] :  always ( ( pi[0][1] == True  ) --> (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 7: FA pi[0] :  always ( ( pi[0][0] == True  )  or  ( ( pi[0][1] == True  ) --> (  not ( pi[0][0] == True  ) ) ) );
+
+
+Formula 8: FA pi[0] :  always (  eventually (  not ( (  eventually ( pi[0][1] == True  ) )  and  ( pi[0][0] == True  ) ) ) );
+
+
+Formula 9: FA pi[0] :  always ( (  always ( ( pi[0][1] == True  )  and  ( pi[0][1] == True  ) ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 10: FA pi[0] :  always ( (  s_next (  s_next (  always ( pi[0][0] == True  ) ) ) ) --> ( pi[0][1] == True  ) );
+
+
+Formula 11: FA pi[0] :  always (  eventually (  eventually ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) ) );
+
+
+Formula 12: FA pi[0] :  always ( ( pi[0][1] == True  )  until  (  not (  s_next (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 13: FA pi[0] :  always ( ( pi[0][1] == True  ) --> (  not (  always (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 14: FA pi[0] :  always (  eventually ( ( ( pi[0][0] == True  )  or  ( pi[0][1] == True  ) ) <--> ( pi[0][0] == True  ) ) );
+
+
+Formula 15: FA pi[0] :  always ( ( ( pi[0][0] == True  ) --> ( pi[0][0] == True  ) )  until  (  not ( pi[0][1] == True  ) ) );
+
+
+Formula 16: FA pi[0] :  always (  eventually ( ( ( pi[0][1] == True  )  or  ( pi[0][0] == True  ) ) <--> ( pi[0][0] == True  ) ) );
+
+
+Formula 17: FA pi[0] :  always ( (  s_next ( pi[0][0] == True  ) )  or  (  eventually (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 18: FA pi[0] :  always ( ( pi[0][1] == True  )  until  ( (  not ( pi[0][0] == True  ) )  or  ( pi[0][0] == True  ) ) );
+
+
+Formula 19: FA pi[0] :  always ( (  not ( pi[0][0] == True  ) )  or  ( ( pi[0][1] == True  )  or  ( pi[0][0] == True  ) ) );
+
+
+Formula 20: FA pi[0] :  always ( (  always ( pi[0][1] == True  ) ) --> (  s_next ( pi[0][0] == True  ) ) );
+
+
+Formula 21: FA pi[0] :  always ( (  eventually (  not ( pi[0][1] == True  ) ) )  or  ( pi[0][0] == True  ) );
+
+
+Formula 22: FA pi[0] :  always (  eventually ( (  s_next ( pi[0][0] == True  ) ) --> ( pi[0][1] == True  ) ) );
+
+
+Formula 23: FA pi[0] :  always ( (  always ( pi[0][1] == True  ) ) --> (  s_next (  always ( pi[0][0] == True  ) ) ) );
+
+
+Formula 24: FA pi[0] :  always ( (  not ( ( pi[0][0] == True  ) <--> ( pi[0][0] == True  ) ) ) --> ( pi[0][1] == True  ) );
+
+
+Formula 25: FA pi[0] :  always ( (  s_next ( pi[0][1] == True  ) ) --> (  eventually (  s_next ( pi[0][0] == True  ) ) ) );
+
+
+Formula 26: FA pi[0] :  always (  eventually (  always ( (  eventually ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) ) ) );
+
+
+Formula 27: FA pi[0] :  always ( ( pi[0][1] == True  ) <--> ( (  always ( pi[0][0] == True  ) )  until  ( pi[0][1] == True  ) ) );
+
+
+Formula 28: FA pi[0] :  always ( ( pi[0][0] == True  )  until  ( ( pi[0][1] == True  )  until  (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 29: FA pi[0] :  always ( ( ( pi[0][0] == True  ) <--> ( pi[0][0] == True  ) )  or  ( pi[0][1] == True  ) );
+
+
+Formula 30: FA pi[0] :  always (  not ( ( pi[0][1] == True  )  until  (  always (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 31: FA pi[0] :  always ( ( pi[0][0] == True  ) --> ( (  always ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 32: FA pi[0] :  always (  not ( ( pi[0][0] == True  )  until  (  always ( pi[0][1] == True  ) ) ) );
+
+
+Formula 33: FA pi[0] :  always ( (  eventually ( pi[0][0] == True  ) )  until  (  not ( pi[0][1] == True  ) ) );
+
+
+Formula 34: FA pi[0] :  always ( ( pi[0][0] == True  ) --> ( (  not ( pi[0][1] == True  ) )  or  ( pi[0][0] == True  ) ) );
+
+
+Formula 35: FA pi[0] :  always ( ( pi[0][0] == True  )  or  (  not (  always ( pi[0][1] == True  ) ) ) );
+
+
+Formula 36: FA pi[0] :  always (  eventually ( (  always ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 37: FA pi[0] :  always (  always ( (  always ( pi[0][1] == True  ) ) --> ( pi[0][0] == True  ) ) );
+
+
+Formula 38: FA pi[0] :  always (  eventually ( (  s_next ( pi[0][0] == True  ) ) <--> ( pi[0][1] == True  ) ) );
+
+
+Formula 39: FA pi[0] :  always (  eventually ( ( pi[0][0] == True  )  until  ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) ) );
+
+
+Formula 40: FA pi[0] :  always (  eventually (  always ( ( pi[0][1] == True  ) --> ( pi[0][0] == True  ) ) ) );
+
+
+Formula 41: FA pi[0] :  always (  not ( (  always ( pi[0][1] == True  ) )  and  ( pi[0][0] == True  ) ) );
+
+
+Formula 42: FA pi[0] :  always ( ( pi[0][1] == True  )  until  ( ( pi[0][1] == True  ) --> (  eventually ( pi[0][0] == True  ) ) ) );
+
+
+Formula 43: FA pi[0] :  always ( (  always (  always ( pi[0][1] == True  ) ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 44: FA pi[0] :  always ( ( ( pi[0][0] == True  ) --> ( pi[0][1] == True  ) )  or  ( pi[0][0] == True  ) );
+
+
+Formula 45: FA pi[0] :  always ( (  not ( ( pi[0][1] == True  ) <--> ( pi[0][1] == True  ) ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 46: FA pi[0] :  always (  not ( ( pi[0][0] == True  )  and  (  always ( pi[0][1] == True  ) ) ) );
+
+
+Formula 47: FA pi[0] :  always ( ( pi[0][1] == True  )  until  ( ( pi[0][1] == True  ) --> (  always ( pi[0][0] == True  ) ) ) );
+
+
+Formula 48: FA pi[0] :  always (  eventually ( ( pi[0][1] == True  ) --> (  always (  always ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 49: FA pi[0] :  always ( ( pi[0][0] == True  )  until  ( ( pi[0][1] == True  ) --> ( pi[0][1] == True  ) ) );
+
+
+Formula 50: FA pi[0] :  always (  not (  s_next ( (  always ( pi[0][1] == True  ) )  and  ( pi[0][0] == True  ) ) ) );
+
+
+
+
+
+Variability (SAME TRAINING SAMPLES):
+
+|T_1|      = 43
+|T_1_run2| = 50
+|T_1_run3| = 50
+|T_same_s| = 120
+Variability = 0.7587412587412588
+
+
+
+Computational time (seconds):
+
+time_learning_1 = 743.8012652397156
+time_learning_2 = 762.2239646911621
+time_learning_3 = 400.758318901062
+
+
+time_learning_1_run2 = 373.51317834854126
+time_learning_1_run3 = 420.06397676467896
+
+Total_time = 2700.362936973572     (~0.7501008158259922 hours)
+
+
+Average(hours) = 0.14988 +- 0.04849
+
+List of seeds used:
+
+
+seed_learning_1 = 632373
+seed_positive_test_1 = 583692
+seed_negative_test_1 = 453084
+seed_learning_template_1 =138899
+
+seed_learning_2 = 822765
+seed_positive_test_2 = 102062
+seed_negative_test_2 = 280518
+seed_learning_template_2 =417831
+
+seed_learning_3 = 735087
+seed_positive_test_3 = 256116
+seed_negative_test_3 = 153252
+seed_learning_template_3 =421175
+seed_learning_template_1_run2 = 20464
+seed_learning_template_1_run3 = 368109
+
+
+
+######################################################################################################
+UNRESTRICTED SEARCH 
+
+
+Experiment 1:
+
+
+Formula 1: E pi[0] E pi[1] :  not ( (  eventually ( pi[0][0] == True  ) ) <--> ( pi[1][0] == True  ) );
+
+
+Formula 2: E pi[0] FA pi[1] : ( pi[1][1] == True  )  or  ( pi[0][1] == True  );
+
+
+Formula 3: E pi[0] FA pi[1] : ( pi[0][0] == True  ) --> (  s_next ( pi[1][0] == True  ) );
+
+
+Formula 4: E pi[0] E pi[1] : ( pi[0][0] == True  ) --> (  s_next (  s_next (  eventually (  always ( pi[1][1] == True  ) ) ) ) );
+
+
+Formula 5: E pi[0] FA pi[1] E pi[2] : ( ( pi[1][1] == True  ) <--> ( pi[2][0] == True  ) )  until  (  s_next ( pi[0][1] == True  ) );
+
+
+Formula 6: E pi[0] FA pi[1] : ( pi[1][1] == True  )  or  (  s_next (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 7: E pi[0] E pi[1] : ( pi[1][1] == True  ) --> ( pi[0][1] == True  );
+
+
+Formula 8: E pi[0] :  not (  always (  s_next (  s_next ( pi[0][1] == True  ) ) ) );
+
+
+Formula 9: E pi[0] E pi[1] : ( ( pi[1][0] == True  )  or  ( ( pi[0][1] == True  )  and  ( pi[1][1] == True  ) ) ) <--> ( pi[0][1] == True  );
+
+
+Formula 10: FA pi[0] E pi[1] E pi[2] : ( pi[2][1] == True  ) --> ( ( pi[1][1] == True  )  and  ( pi[0][1] == True  ) );
+
+
+Formula 11: E pi[0] :  not (  s_next (  s_next (  not ( pi[0][0] == True  ) ) ) );
+
+
+Formula 12: FA pi[0] E pi[1] E pi[2] : ( ( pi[1][1] == True  )  until  ( pi[2][1] == True  ) ) --> ( pi[0][0] == True  );
+
+
+Formula 13: E pi[0] :  not ( pi[0][1] == True  );
+
+
+Formula 14: FA pi[0] E pi[1] FA pi[2] :  s_next ( ( pi[2][0] == True  ) --> ( ( pi[1][1] == True  ) <--> ( pi[0][1] == True  ) ) );
+
+
+Formula 15: FA pi[0] E pi[1] E pi[2] : (  not ( ( pi[1][0] == True  )  or  ( pi[0][0] == True  ) ) ) <--> ( pi[2][0] == True  );
+
+
+Formula 16: FA pi[0] FA pi[1] FA pi[2] : ( pi[2][0] == True  ) --> (  eventually ( (  s_next ( pi[0][0] == True  ) ) <--> ( pi[1][1] == True  ) ) );
+
+
+Formula 17: E pi[0] FA pi[1] : (  s_next (  eventually ( pi[1][0] == True  ) ) ) --> ( pi[0][1] == True  );
+
+
+Formula 18: E pi[0] : pi[0][0] == True ;
+
+
+Formula 19: FA pi[0] E pi[1] : ( pi[1][0] == True  )  or  ( pi[0][0] == True  );
+
+
+Formula 20: E pi[0] E pi[1] :  not ( (  always ( ( pi[1][1] == True  )  until  ( pi[1][1] == True  ) ) )  until  ( pi[0][0] == True  ) );
+
+
+Formula 21: E pi[0] E pi[1] FA pi[2] : ( (  eventually (  not ( pi[2][0] == True  ) ) ) --> ( pi[0][1] == True  ) )  and  ( pi[1][1] == True  );
+
+
+Formula 22: E pi[0] E pi[1] : (  eventually ( ( pi[0][1] == True  )  until  ( pi[0][0] == True  ) ) ) <--> ( pi[1][1] == True  );
+
+
+Formula 23: E pi[0] FA pi[1] FA pi[2] : ( (  not ( pi[1][0] == True  ) )  or  ( pi[2][0] == True  ) )  or  ( pi[0][1] == True  );
+
+
+Formula 24: FA pi[0] E pi[1] E pi[2] :  eventually (  always ( ( pi[2][0] == True  )  or  ( ( pi[1][1] == True  )  and  ( pi[0][1] == True  ) ) ) );
+
+
+Formula 25: E pi[0] :  not ( pi[0][0] == True  );
+
+
+Formula 26: E pi[0] FA pi[1] :  eventually ( ( pi[1][1] == True  ) --> ( pi[0][1] == True  ) );
+
+
+Formula 27: FA pi[0] E pi[1] FA pi[2] : ( (  always ( pi[2][1] == True  ) )  until  (  eventually ( pi[1][0] == True  ) ) )  until  ( pi[0][0] == True  );
+
+
+Formula 28: FA pi[0] E pi[1] : ( pi[0][0] == True  )  or  ( pi[1][0] == True  );
+
+
+Formula 29: E pi[0] E pi[1] FA pi[2] : ( pi[0][0] == True  ) --> ( ( pi[1][1] == True  ) --> ( pi[2][1] == True  ) );
+
+
+Formula 30: E pi[0] : (  not ( pi[0][0] == True  ) )  and  ( pi[0][1] == True  );
+
+
+Formula 31: E pi[0] E pi[1] E pi[2] : (  s_next ( ( pi[2][0] == True  )  and  ( pi[0][1] == True  ) ) ) <--> ( pi[1][0] == True  );
+
+
+Formula 32: E pi[0] FA pi[1] E pi[2] : ( pi[1][0] == True  ) --> (  s_next ( ( pi[0][1] == True  )  and  ( pi[2][1] == True  ) ) );
+
+
+Formula 33: E pi[0] E pi[1] : ( ( pi[0][1] == True  )  or  ( pi[0][0] == True  ) ) --> ( pi[1][1] == True  );
+
+
+Formula 34: FA pi[0] :  eventually ( pi[0][0] == True  );
+
+
+Formula 35: E pi[0] FA pi[1] : ( pi[1][1] == True  )  or  (  s_next (  eventually ( pi[0][1] == True  ) ) );
+
+
+Formula 36: FA pi[0] FA pi[1] E pi[2] : ( pi[0][1] == True  )  or  ( ( pi[1][0] == True  ) <--> ( pi[2][0] == True  ) );
+
+
+Formula 37: E pi[0] E pi[1] :  s_next ( ( pi[0][1] == True  ) <--> (  always ( pi[1][1] == True  ) ) );
+
+
+Formula 38: FA pi[0] E pi[1] : ( (  eventually (  eventually ( pi[1][0] == True  ) ) ) --> ( pi[0][1] == True  ) )  until  ( pi[1][1] == True  );
+
+
+Formula 39: FA pi[0] E pi[1] : ( pi[0][1] == True  ) <--> ( pi[1][1] == True  );
+
+
+Formula 40: E pi[0] E pi[1] : (  eventually (  not ( pi[1][0] == True  ) ) )  and  ( pi[0][1] == True  );
+
+
+Formula 41: E pi[0] FA pi[1] E pi[2] :  always ( ( ( pi[0][1] == True  )  or  (  eventually ( pi[1][1] == True  ) ) )  until  ( pi[2][0] == True  ) );
+
+
+Formula 42: FA pi[0] E pi[1] E pi[2] :  not ( ( pi[0][0] == True  )  and  ( ( pi[1][1] == True  ) --> ( pi[2][0] == True  ) ) );
+
+
+Formula 43: FA pi[0] FA pi[1] E pi[2] : (  eventually ( ( pi[2][0] == True  )  or  ( pi[1][1] == True  ) ) )  until  (  s_next ( pi[0][1] == True  ) );
+
+
+Formula 44: E pi[0] FA pi[1] E pi[2] : (  s_next ( ( pi[0][0] == True  )  or  (  s_next ( pi[1][0] == True  ) ) ) ) <--> ( pi[2][1] == True  );
+
+
+Formula 45: E pi[0] FA pi[1] FA pi[2] :  s_next ( ( (  not ( pi[0][1] == True  ) ) --> ( pi[2][1] == True  ) )  or  ( pi[1][1] == True  ) );
+
+
+Formula 46: E pi[0] E pi[1] : ( pi[0][0] == True  ) <--> (  eventually (  always ( pi[1][1] == True  ) ) );
+
+
+Formula 47: FA pi[0] E pi[1] FA pi[2] : (  always ( pi[2][1] == True  ) )  or  ( ( pi[0][1] == True  ) <--> ( pi[1][1] == True  ) );
+
+
+Formula 48: FA pi[0] E pi[1] E pi[2] : (  s_next ( (  not ( pi[0][1] == True  ) )  until  ( pi[2][0] == True  ) ) )  until  ( pi[1][1] == True  );
+
+
+Formula 49: E pi[0] E pi[1] FA pi[2] : ( pi[0][0] == True  ) <--> ( ( ( pi[2][1] == True  ) <--> ( pi[1][0] == True  ) ) <--> ( pi[2][1] == True  ) );
+
+
+Formula 50: E pi[0] E pi[1] FA pi[2] : (  s_next ( pi[0][1] == True  ) ) --> ( ( pi[1][1] == True  )  and  ( pi[2][1] == True  ) );
+
+
+
+Experiment 2:
+
+
+Formula 1: FA pi[0] E pi[1] FA pi[2] : ( pi[2][0] == True  )  until  ( ( pi[0][0] == True  )  or  ( pi[1][0] == True  ) );
+
+
+Formula 2: FA pi[0] FA pi[1] E pi[2] : ( pi[1][0] == True  )  or  (  s_next ( ( pi[2][1] == True  )  or  ( pi[0][1] == True  ) ) );
+
+
+Formula 3: E pi[0] FA pi[1] E pi[2] : ( pi[0][0] == True  ) <--> (  not ( ( pi[2][0] == True  ) --> (  not ( pi[1][1] == True  ) ) ) );
+
+
+Formula 4: E pi[0] FA pi[1] : ( pi[1][1] == True  )  until  ( pi[0][0] == True  );
+
+
+Formula 5: E pi[0] :  not (  always (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 6: FA pi[0] E pi[1] E pi[2] : ( pi[1][1] == True  ) <--> ( (  not (  s_next ( pi[2][0] == True  ) ) )  or  ( pi[0][1] == True  ) );
+
+
+Formula 7: E pi[0] FA pi[1] E pi[2] : (  s_next ( pi[2][0] == True  ) )  until  ( ( pi[1][1] == True  ) --> ( pi[0][0] == True  ) );
+
+
+Formula 8: E pi[0] E pi[1] E pi[2] : ( pi[0][0] == True  )  and  ( ( pi[1][1] == True  )  and  ( pi[2][0] == True  ) );
+
+
+Formula 9: E pi[0] E pi[1] FA pi[2] : (  s_next ( pi[0][0] == True  ) )  or  (  not ( ( pi[2][1] == True  ) <--> ( pi[1][1] == True  ) ) );
+
+
+Formula 10: E pi[0] FA pi[1] E pi[2] : ( ( pi[1][1] == True  ) --> ( pi[0][0] == True  ) )  until  (  eventually ( pi[2][0] == True  ) );
+
+
+Formula 11: E pi[0] FA pi[1] E pi[2] : ( ( pi[1][0] == True  ) <--> ( pi[0][1] == True  ) )  or  (  not (  s_next ( pi[2][1] == True  ) ) );
+
+
+Formula 12: FA pi[0] E pi[1] :  always (  eventually ( ( pi[0][0] == True  )  or  (  eventually ( pi[1][0] == True  ) ) ) );
+
+
+Formula 13: E pi[0] E pi[1] :  always ( ( pi[1][0] == True  )  or  (  eventually ( pi[0][1] == True  ) ) );
+
+
+Formula 14: E pi[0] FA pi[1] E pi[2] : ( pi[2][0] == True  ) <--> (  eventually ( ( pi[1][1] == True  )  until  ( pi[0][1] == True  ) ) );
+
+
+Formula 15: FA pi[0] E pi[1] : (  eventually ( pi[0][1] == True  ) ) <--> ( pi[1][1] == True  );
+
+
+Formula 16: E pi[0] FA pi[1] : ( pi[1][1] == True  )  until  (  not ( ( pi[1][0] == True  )  and  (  s_next ( pi[0][1] == True  ) ) ) );
+
+
+Formula 17: E pi[0] E pi[1] E pi[2] : (  not ( ( pi[0][0] == True  )  and  ( pi[1][1] == True  ) ) ) <--> ( pi[2][0] == True  );
+
+
+Formula 18: FA pi[0] E pi[1] : ( ( pi[1][0] == True  )  and  (  eventually ( pi[0][0] == True  ) ) )  and  ( pi[1][0] == True  );
+
+
+Formula 19: E pi[0] FA pi[1] E pi[2] :  always ( ( pi[0][0] == True  ) --> (  eventually ( ( pi[2][1] == True  )  or  ( pi[1][0] == True  ) ) ) );
+
+
+Formula 20: E pi[0] FA pi[1] : (  always (  eventually ( pi[1][1] == True  ) ) )  until  ( pi[0][1] == True  );
+
+
+Formula 21: E pi[0] E pi[1] E pi[2] : ( pi[2][1] == True  )  until  ( (  s_next ( pi[0][0] == True  ) ) <--> ( pi[1][1] == True  ) );
+
+
+Formula 22: E pi[0] E pi[1] E pi[2] :  s_next ( ( ( pi[1][1] == True  )  or  ( pi[0][0] == True  ) )  and  ( pi[2][1] == True  ) );
+
+
+Formula 23: E pi[0] E pi[1] E pi[2] : ( ( pi[2][0] == True  ) --> ( pi[1][0] == True  ) ) <--> ( pi[0][0] == True  );
+
+
+Formula 24: FA pi[0] E pi[1] :  always ( ( pi[0][1] == True  )  until  (  eventually ( pi[1][0] == True  ) ) );
+
+
+Formula 25: FA pi[0] FA pi[1] E pi[2] : (  s_next ( ( pi[0][1] == True  ) <--> ( pi[2][0] == True  ) ) ) --> (  not ( pi[1][1] == True  ) );
+
+
+Formula 26: FA pi[0] FA pi[1] E pi[2] : ( ( pi[1][1] == True  )  until  ( pi[2][0] == True  ) ) <--> (  not ( pi[0][1] == True  ) );
+
+
+Formula 27: FA pi[0] :  eventually ( ( pi[0][0] == True  )  or  ( pi[0][0] == True  ) );
+
+
+Formula 28: E pi[0] E pi[1] E pi[2] : ( pi[2][1] == True  ) <--> (  s_next ( ( pi[0][1] == True  )  or  ( pi[1][1] == True  ) ) );
+
+
+Formula 29: E pi[0] E pi[1] E pi[2] :  always ( (  eventually ( ( pi[0][1] == True  )  until  ( pi[1][0] == True  ) ) )  or  ( pi[2][0] == True  ) );
+
+
+Formula 30: FA pi[0] : ( ( pi[0][0] == True  ) --> ( pi[0][0] == True  ) )  or  (  s_next ( pi[0][1] == True  ) );
+
+
+Formula 31: E pi[0] FA pi[1] :  eventually ( ( pi[0][1] == True  )  and  ( pi[1][1] == True  ) );
+
+
+Formula 32: E pi[0] E pi[1] :  s_next ( ( (  eventually ( pi[1][1] == True  ) )  or  ( pi[0][0] == True  ) )  until  ( pi[1][0] == True  ) );
+
+
+Formula 33: FA pi[0] :  eventually (  always ( ( pi[0][0] == True  )  or  (  not ( pi[0][1] == True  ) ) ) );
+
+
+Formula 34: FA pi[0] E pi[1] E pi[2] : ( pi[0][0] == True  ) --> (  always ( (  always ( pi[1][1] == True  ) ) --> ( pi[2][0] == True  ) ) );
+
+
+Formula 35: FA pi[0] E pi[1] E pi[2] : ( ( pi[0][0] == True  ) <--> ( pi[1][1] == True  ) )  and  ( pi[2][0] == True  );
+
+
+Formula 36: E pi[0] :  s_next (  eventually (  eventually (  s_next ( pi[0][1] == True  ) ) ) );
+
+
+Formula 37: E pi[0] FA pi[1] FA pi[2] : ( ( pi[0][1] == True  )  until  ( pi[1][1] == True  ) )  or  ( pi[2][0] == True  );
+
+
+Formula 38: E pi[0] :  s_next (  not ( pi[0][1] == True  ) );
+
+
+Formula 39: E pi[0] FA pi[1] E pi[2] : ( ( pi[1][0] == True  ) <--> ( pi[2][1] == True  ) )  and  ( pi[0][0] == True  );
+
+
+Formula 40: E pi[0] E pi[1] E pi[2] :  s_next ( ( pi[2][1] == True  )  and  ( (  not ( pi[1][0] == True  ) ) <--> ( pi[0][0] == True  ) ) );
+
+
+Formula 41: E pi[0] E pi[1] E pi[2] : ( pi[0][0] == True  )  or  ( ( pi[1][0] == True  )  and  ( pi[2][0] == True  ) );
+
+
+Formula 42: E pi[0] E pi[1] : ( pi[0][1] == True  )  and  (  not (  eventually (  always ( pi[1][1] == True  ) ) ) );
+
+
+Formula 43: FA pi[0] E pi[1] FA pi[2] : ( pi[2][0] == True  )  or  ( ( pi[0][0] == True  )  until  ( pi[1][1] == True  ) );
+
+
+Formula 44: E pi[0] E pi[1] : ( pi[0][0] == True  ) <--> ( pi[1][1] == True  );
+
+
+Formula 45: FA pi[0] E pi[1] : ( pi[1][1] == True  )  or  (  s_next ( pi[0][1] == True  ) );
+
+
+Formula 46: FA pi[0] E pi[1] E pi[2] : ( pi[2][0] == True  )  until  (  eventually (  always ( ( pi[1][0] == True  )  or  ( pi[0][1] == True  ) ) ) );
+
+
+Formula 47: E pi[0] FA pi[1] :  always ( (  not (  always (  s_next ( pi[0][1] == True  ) ) ) )  or  ( pi[1][1] == True  ) );
+
+
+Formula 48: E pi[0] E pi[1] E pi[2] :  not ( (  not ( ( pi[2][1] == True  ) --> ( pi[0][0] == True  ) ) ) --> ( pi[1][1] == True  ) );
+
+
+Formula 49: E pi[0] FA pi[1] : (  always ( pi[0][1] == True  ) ) --> ( pi[1][1] == True  );
+
+
+Formula 50: FA pi[0] :  eventually (  s_next ( (  always (  not ( pi[0][0] == True  ) ) ) --> ( pi[0][1] == True  ) ) );
+
+
+
+Experiment 3:
+
+
+
+Formula 1: E pi[0] E pi[1] :  s_next ( ( ( pi[0][0] == True  ) --> ( pi[1][0] == True  ) )  or  (  eventually ( pi[0][0] == True  ) ) );
+
+
+
+Formula 2: E pi[0] E pi[1] :  s_next ( ( ( pi[1][1] == True  ) <--> (  always ( pi[0][0] == True  ) ) )  until  ( pi[0][1] == True  ) );
+
+
+
+Formula 3: E pi[0] E pi[1] : ( pi[1][0] == True  )  and  ( pi[0][1] == True  );
+
+
+
+Formula 4: E pi[0] FA pi[1] FA pi[2] : (  always ( pi[0][0] == True  ) ) --> ( ( pi[1][1] == True  )  or  (  s_next ( pi[2][0] == True  ) ) );
+
+
+
+Formula 5: E pi[0] :  s_next ( ( ( pi[0][0] == True  )  or  ( pi[0][0] == True  ) ) <--> ( pi[0][1] == True  ) );
+
+
+
+Formula 6: FA pi[0] E pi[1] : ( pi[0][1] == True  )  or  (  eventually (  s_next ( pi[1][1] == True  ) ) );
+
+
+
+Formula 7: FA pi[0] :  s_next (  eventually ( pi[0][1] == True  ) );
+
+
+
+Formula 8: FA pi[0] E pi[1] E pi[2] : ( pi[1][1] == True  ) <--> ( ( pi[0][1] == True  )  and  (  not ( pi[2][0] == True  ) ) );
+
+
+
+Formula 9: E pi[0] E pi[1] : ( pi[1][1] == True  )  and  ( pi[0][1] == True  );
+
+
+
+Formula 10: FA pi[0] :  always (  not (  s_next (  not (  eventually (  not ( pi[0][1] == True  ) ) ) ) ) );
+
+
+
+Formula 11: E pi[0] E pi[1] E pi[2] : (  eventually ( pi[1][0] == True  ) ) --> ( ( pi[2][0] == True  ) <--> ( pi[0][1] == True  ) );
+
+
+
+Formula 12: E pi[0] E pi[1] FA pi[2] :  eventually ( ( pi[1][0] == True  ) <--> ( (  eventually ( pi[2][1] == True  ) ) --> ( pi[0][1] == True  ) ) );
+
+
+
+Formula 13: FA pi[0] E pi[1] : ( pi[0][0] == True  )  until  ( pi[1][1] == True  );
+
+
+
+Formula 14: FA pi[0] E pi[1] E pi[2] :  not ( ( pi[2][1] == True  ) <--> ( ( pi[1][1] == True  ) --> (  s_next ( pi[0][1] == True  ) ) ) );
+
+
+
+Formula 15: E pi[0] E pi[1] E pi[2] : (  eventually ( pi[1][1] == True  ) ) <--> ( ( pi[0][1] == True  ) <--> ( pi[2][0] == True  ) );
+
+
+
+Formula 16: E pi[0] E pi[1] : ( pi[0][1] == True  )  and  ( pi[1][0] == True  );
+
+
+
+Formula 17: E pi[0] :  s_next ( ( pi[0][0] == True  )  until  (  eventually (  eventually (  not ( pi[0][1] == True  ) ) ) ) );
+
+
+
+Formula 18: FA pi[0] E pi[1] E pi[2] : ( pi[1][0] == True  )  until  ( ( pi[2][1] == True  )  or  ( pi[0][1] == True  ) );
+
+
+
+Formula 19: E pi[0] : ( pi[0][0] == True  ) <--> (  always ( pi[0][1] == True  ) );
+
+
+
+Formula 20: E pi[0] :  always (  not (  always ( (  eventually ( pi[0][1] == True  ) )  and  ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 21: E pi[0] E pi[1] :  not ( ( pi[0][0] == True  )  and  ( ( pi[1][0] == True  ) <--> ( pi[1][1] == True  ) ) );
+
+
+
+Formula 22: E pi[0] FA pi[1] E pi[2] : ( pi[0][0] == True  )  or  (  not ( ( pi[2][0] == True  )  or  ( pi[1][1] == True  ) ) );
+
+
+
+Formula 23: E pi[0] E pi[1] : (  s_next ( pi[0][0] == True  ) )  and  ( pi[1][1] == True  );
+
+
+
+Formula 24: E pi[0] FA pi[1] E pi[2] : ( ( pi[0][0] == True  )  or  ( pi[1][1] == True  ) )  and  ( pi[2][0] == True  );
+
+
+
+Formula 25: E pi[0] : ( pi[0][0] == True  )  and  (  not ( ( pi[0][0] == True  )  and  ( pi[0][1] == True  ) ) );
+
+
+
+Formula 26: FA pi[0] E pi[1] :  not (  always (  eventually ( ( pi[1][1] == True  )  and  (  s_next ( pi[0][0] == True  ) ) ) ) );
+
+
+
+Formula 27: FA pi[0] E pi[1] E pi[2] :  s_next ( ( pi[1][1] == True  ) --> ( ( pi[0][1] == True  )  until  (  s_next ( pi[2][0] == True  ) ) ) );
+
+
+
+Formula 28: E pi[0] E pi[1] E pi[2] :  eventually (  always ( ( pi[1][0] == True  )  and  ( ( pi[2][0] == True  )  and  ( pi[0][0] == True  ) ) ) );
+
+
+
+Formula 29: E pi[0] FA pi[1] FA pi[2] : ( ( pi[0][0] == True  ) --> (  eventually ( pi[1][0] == True  ) ) )  until  ( pi[2][0] == True  );
+
+
+
+Formula 30: E pi[0] FA pi[1] E pi[2] : ( ( pi[1][1] == True  ) --> ( pi[2][0] == True  ) )  and  ( pi[0][0] == True  );
+
+
+
+Formula 31: FA pi[0] E pi[1] E pi[2] : ( pi[2][0] == True  ) --> ( ( pi[1][1] == True  ) <--> (  always (  s_next ( pi[0][1] == True  ) ) ) );
+
+
+
+Formula 32: FA pi[0] E pi[1] E pi[2] : ( ( pi[2][1] == True  )  and  ( pi[1][0] == True  ) )  until  (  eventually ( pi[0][0] == True  ) );
+
+
+
+Formula 33: E pi[0] E pi[1] : ( pi[0][1] == True  )  or  ( pi[1][1] == True  );
+
+
+
+Formula 34: E pi[0] E pi[1] E pi[2] : ( ( pi[1][0] == True  ) <--> ( pi[0][1] == True  ) )  until  (  s_next ( pi[2][0] == True  ) );
+
+
+
+Formula 35: E pi[0] E pi[1] : (  eventually ( pi[1][1] == True  ) ) --> ( pi[0][1] == True  );
+
+
+
+Formula 36: E pi[0] E pi[1] FA pi[2] : (  always ( pi[0][0] == True  ) ) <--> ( ( pi[2][1] == True  )  and  (  not ( pi[1][1] == True  ) ) );
+
+
+
+Formula 37: FA pi[0] E pi[1] :  eventually ( ( pi[0][0] == True  ) <--> (  always (  always ( pi[1][1] == True  ) ) ) );
+
+
+
+Formula 38: E pi[0] E pi[1] :  eventually ( (  not ( pi[1][0] == True  ) )  or  ( pi[0][1] == True  ) );
+
+
+
+Formula 39: E pi[0] FA pi[1] E pi[2] : ( pi[0][0] == True  )  and  ( ( pi[2][1] == True  ) <--> ( pi[1][0] == True  ) );
+
+
+
+Formula 40: E pi[0] FA pi[1] E pi[2] : ( ( pi[1][0] == True  )  and  ( pi[0][1] == True  ) )  or  ( pi[2][0] == True  );
+
+
+
+Formula 41: E pi[0] E pi[1] E pi[2] : (  s_next ( ( pi[0][1] == True  )  and  (  eventually ( pi[2][0] == True  ) ) ) )  and  ( pi[1][1] == True  );
+
+
+
+Formula 42: E pi[0] E pi[1] : ( pi[1][0] == True  )  and  ( pi[0][0] == True  );
+
+
+
+Formula 43: E pi[0] E pi[1] E pi[2] : ( ( pi[1][0] == True  )  or  ( pi[0][0] == True  ) ) --> ( pi[2][0] == True  );
+
+
+
+Formula 44: E pi[0] E pi[1] : ( pi[1][1] == True  )  until  ( pi[0][0] == True  );
+
+
+
+Formula 45: FA pi[0] FA pi[1] E pi[2] : (  not (  always ( ( pi[1][1] == True  ) --> ( pi[0][1] == True  ) ) ) ) --> ( pi[2][0] == True  );
+
+
+
+Formula 46: FA pi[0] FA pi[1] E pi[2] : (  always ( pi[0][1] == True  ) )  until  ( ( pi[1][0] == True  )  until  ( pi[2][1] == True  ) );
+
+
+
+Formula 47: FA pi[0] E pi[1] FA pi[2] : ( pi[1][0] == True  )  or  ( ( ( pi[0][1] == True  )  until  ( pi[1][0] == True  ) )  or  ( pi[2][0] == True  ) );
+
+
+
+Formula 48: E pi[0] FA pi[1] E pi[2] : ( pi[0][1] == True  ) <--> ( ( pi[2][1] == True  ) <--> ( ( pi[0][1] == True  )  until  ( pi[1][0] == True  ) ) );
+
+
+
+Formula 49: FA pi[0] E pi[1] E pi[2] :  not ( ( ( pi[0][0] == True  ) <--> ( pi[2][1] == True  ) ) --> (  not ( pi[1][1] == True  ) ) );
+
+
+
+Formula 50: FA pi[0] FA pi[1] : ( pi[1][0] == True  ) --> ( ( pi[0][0] == True  )  until  (  s_next (  eventually ( pi[1][0] == True  ) ) ) );
+
+
+
+
+
+Variability (DIFFERENT TRAINING SAMPLES):
+
+|U_1| = 50
+|U_2| = 50
+|U_3| = 50
+|U|   = 150
+Variability   = 1.0
+
+
+
+Ratio of false positives:
+
+ratio_false_positives_1 = 1.0
+ratio_false_positives_2 = 0.96
+ratio_false_positives_3 = 0.98
+
+Average = 0.98 +- 0.01
+
+
+
+Ratio of false negatives:
+
+ratio_false_negatives_1 = 0.0
+ratio_false_negatives_2 = 0.02
+ratio_false_negatives_3 = 0.0
+
+Average = 0.006666666666666667 +- 0.009428090415820633
+\Second run with the same traces as Experiment 1:
+
+
+Formula 1: E pi[0] E pi[1] FA pi[2] : ( pi[0][0] == True  )  and  ( (  always ( pi[2][1] == True  ) ) --> (  eventually ( pi[1][1] == True  ) ) );
+
+
+Formula 2: E pi[0] FA pi[1] :  s_next ( ( pi[1][1] == True  )  or  ( pi[0][1] == True  ) );
+
+
+Formula 3: FA pi[0] :  eventually ( pi[0][1] == True  );
+
+
+Formula 4: E pi[0] E pi[1] : ( pi[0][1] == True  )  and  ( pi[1][1] == True  );
+
+
+Formula 5: E pi[0] E pi[1] E pi[2] :  eventually (  always ( ( pi[0][1] == True  ) <--> ( ( pi[1][0] == True  ) --> ( pi[2][0] == True  ) ) ) );
+
+
+Formula 6: FA pi[0] E pi[1] FA pi[2] : ( ( pi[1][1] == True  )  and  ( pi[2][0] == True  ) ) --> (  not ( pi[0][0] == True  ) );
+
+
+Formula 7: E pi[0] FA pi[1] :  s_next ( ( pi[1][0] == True  )  or  (  not ( pi[0][1] == True  ) ) );
+
+
+Formula 8: FA pi[0] E pi[1] :  always ( (  eventually ( pi[0][0] == True  ) )  until  ( pi[1][0] == True  ) );
+
+
+Formula 9: FA pi[0] E pi[1] : (  eventually (  not (  eventually ( pi[1][0] == True  ) ) ) ) <--> (  s_next ( pi[0][1] == True  ) );
+
+
+Formula 10: FA pi[0] E pi[1] FA pi[2] :  eventually ( ( ( pi[2][1] == True  ) --> (  not ( pi[1][0] == True  ) ) )  and  ( pi[0][0] == True  ) );
+
+
+Formula 11: FA pi[0] E pi[1] FA pi[2] : ( ( pi[1][0] == True  )  and  ( pi[0][1] == True  ) ) --> ( pi[2][1] == True  );
+
+
+Formula 12: E pi[0] :  always ( (  eventually ( pi[0][0] == True  ) )  and  (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 13: E pi[0] :  always (  eventually ( pi[0][0] == True  ) );
+
+
+Formula 14: E pi[0] FA pi[1] E pi[2] : ( ( pi[2][1] == True  )  or  ( pi[1][1] == True  ) ) --> (  not ( pi[0][1] == True  ) );
+
+
+Formula 15: E pi[0] E pi[1] E pi[2] : (  s_next ( pi[0][1] == True  ) )  and  ( ( pi[2][0] == True  ) <--> ( pi[1][1] == True  ) );
+
+
+Formula 16: E pi[0] : ( pi[0][1] == True  )  and  (  s_next (  s_next ( pi[0][0] == True  ) ) );
+
+
+Formula 17: E pi[0] E pi[1] FA pi[2] : (  not ( (  not ( pi[0][0] == True  ) )  until  ( pi[1][1] == True  ) ) ) --> ( pi[2][1] == True  );
+
+
+Formula 18: E pi[0] FA pi[1] :  not (  always ( ( pi[1][0] == True  )  until  ( ( pi[0][1] == True  )  and  ( pi[1][1] == True  ) ) ) );
+
+
+Formula 19: E pi[0] FA pi[1] : (  eventually ( pi[1][0] == True  ) )  and  ( pi[0][0] == True  );
+
+
+Formula 20: E pi[0] E pi[1] E pi[2] : (  eventually ( pi[0][0] == True  ) )  until  ( (  not ( pi[2][0] == True  ) ) --> ( pi[1][0] == True  ) );
+
+
+Formula 21: E pi[0] E pi[1] E pi[2] : (  not ( pi[1][0] == True  ) )  until  ( (  s_next ( pi[2][1] == True  ) )  and  ( pi[0][0] == True  ) );
+
+
+Formula 22: E pi[0] E pi[1] E pi[2] : (  not ( ( pi[1][1] == True  )  or  ( pi[2][1] == True  ) ) )  and  ( pi[0][0] == True  );
+
+
+Formula 23: E pi[0] : ( pi[0][0] == True  ) <--> ( pi[0][1] == True  );
+
+
+Formula 24: E pi[0] E pi[1] :  always ( ( pi[0][1] == True  ) --> (  s_next (  eventually ( pi[1][0] == True  ) ) ) );
+
+
+Formula 25: E pi[0] FA pi[1] : ( pi[0][1] == True  ) <--> ( ( pi[1][1] == True  ) --> (  eventually ( pi[0][1] == True  ) ) );
+
+
+Formula 26: FA pi[0] E pi[1] E pi[2] : ( (  always ( pi[0][1] == True  ) )  until  ( pi[1][1] == True  ) )  until  ( pi[2][1] == True  );
+
+
+Formula 27: E pi[0] E pi[1] E pi[2] : ( (  s_next ( pi[1][1] == True  ) )  until  ( pi[0][0] == True  ) )  until  ( pi[2][0] == True  );
+
+
+Formula 28: FA pi[0] E pi[1] E pi[2] : ( (  always ( pi[0][1] == True  ) )  and  (  not ( pi[1][1] == True  ) ) )  or  ( pi[2][0] == True  );
+
+
+Formula 29: E pi[0] FA pi[1] E pi[2] :  eventually ( ( (  always ( pi[2][1] == True  ) )  until  ( pi[1][0] == True  ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 30: E pi[0] E pi[1] : (  s_next (  eventually ( pi[1][1] == True  ) ) )  until  (  always ( pi[0][0] == True  ) );
+
+
+Formula 31: E pi[0] E pi[1] : ( pi[0][0] == True  ) <--> ( pi[1][0] == True  );
+
+
+Formula 32: E pi[0] E pi[1] : ( pi[0][0] == True  )  and  ( pi[1][1] == True  );
+
+
+Formula 33: E pi[0] :  always ( ( ( pi[0][1] == True  )  and  ( pi[0][0] == True  ) )  or  (  eventually ( pi[0][0] == True  ) ) );
+
+
+Formula 34: E pi[0] FA pi[1] E pi[2] : ( pi[0][1] == True  )  or  ( ( pi[2][1] == True  )  or  ( pi[1][0] == True  ) );
+
+
+Formula 35: E pi[0] E pi[1] E pi[2] : ( pi[0][1] == True  )  and  ( (  eventually (  s_next ( pi[2][0] == True  ) ) )  and  ( pi[1][1] == True  ) );
+
+
+Formula 36: E pi[0] :  eventually (  eventually (  s_next (  eventually (  always ( pi[0][0] == True  ) ) ) ) );
+
+
+Formula 37: E pi[0] FA pi[1] FA pi[2] : (  eventually ( ( pi[2][1] == True  )  and  ( pi[0][0] == True  ) ) ) --> (  eventually ( pi[1][1] == True  ) );
+
+
+Formula 38: FA pi[0] E pi[1] E pi[2] : ( ( pi[1][1] == True  )  until  ( pi[0][1] == True  ) ) --> ( pi[2][0] == True  );
+
+
+Formula 39: E pi[0] :  s_next ( pi[0][0] == True  );
+
+
+Formula 40: E pi[0] :  s_next ( ( pi[0][0] == True  ) <--> ( ( pi[0][1] == True  )  and  ( pi[0][0] == True  ) ) );
+
+
+Formula 41: FA pi[0] E pi[1] E pi[2] :  not ( ( pi[0][1] == True  )  and  ( ( pi[2][0] == True  )  or  (  s_next ( pi[1][1] == True  ) ) ) );
+
+
+Formula 42: FA pi[0] E pi[1] E pi[2] :  not ( ( (  always ( pi[2][0] == True  ) ) --> ( pi[0][0] == True  ) ) --> ( pi[1][0] == True  ) );
+
+
+Formula 43: E pi[0] E pi[1] : ( pi[1][1] == True  )  and  ( pi[0][1] == True  );
+
+
+Formula 44: E pi[0] E pi[1] E pi[2] : ( ( pi[2][0] == True  )  or  ( pi[1][0] == True  ) )  or  (  s_next (  always ( pi[0][0] == True  ) ) );
+
+
+Formula 45: E pi[0] : ( pi[0][0] == True  )  or  ( pi[0][1] == True  );
+
+
+Formula 46: E pi[0] FA pi[1] E pi[2] : ( (  s_next ( pi[2][0] == True  ) )  until  (  eventually ( pi[1][0] == True  ) ) ) <--> ( pi[0][0] == True  );
+
+
+Formula 47: E pi[0] FA pi[1] E pi[2] : (  eventually ( pi[0][0] == True  ) )  and  ( ( pi[1][1] == True  ) --> ( pi[2][0] == True  ) );
+
+
+Formula 48: E pi[0] E pi[1] E pi[2] : ( ( pi[2][0] == True  )  and  ( pi[0][1] == True  ) ) <--> (  eventually ( pi[1][1] == True  ) );
+
+
+Formula 49: E pi[0] E pi[1] : ( pi[0][1] == True  )  and  ( pi[1][0] == True  );
+
+
+Formula 50: E pi[0] E pi[1] E pi[2] : ( pi[1][1] == True  )  and  ( ( pi[2][0] == True  ) --> ( pi[0][1] == True  ) );
+
+
+\Third run with the same traces as Experiment 1:
+
+
+Formula 1: FA pi[0] FA pi[1] E pi[2] : ( (  eventually ( pi[0][1] == True  ) )  or  ( pi[1][1] == True  ) )  and  ( pi[2][1] == True  );
+
+
+Formula 2: E pi[0] E pi[1] : ( (  not (  always ( pi[1][1] == True  ) ) )  until  ( pi[0][1] == True  ) )  and  ( pi[1][0] == True  );
+
+
+Formula 3: E pi[0] : (  not (  eventually ( pi[0][1] == True  ) ) )  until  (  s_next ( pi[0][1] == True  ) );
+
+
+Formula 4: FA pi[0] E pi[1] E pi[2] : (  always ( ( pi[1][0] == True  )  or  ( pi[0][0] == True  ) ) )  or  ( pi[2][1] == True  );
+
+
+Formula 5: E pi[0] E pi[1] FA pi[2] : ( ( pi[1][1] == True  ) --> ( pi[2][0] == True  ) )  and  ( pi[0][0] == True  );
+
+
+Formula 6: E pi[0] E pi[1] : (  s_next ( pi[1][1] == True  ) )  until  ( pi[0][0] == True  );
+
+
+Formula 7: FA pi[0] E pi[1] : ( pi[0][0] == True  )  until  ( pi[1][0] == True  );
+
+
+Formula 8: E pi[0] E pi[1] : ( pi[1][0] == True  )  and  ( pi[0][0] == True  );
+
+
+Formula 9: E pi[0] FA pi[1] FA pi[2] :  eventually ( ( ( pi[2][0] == True  ) <--> ( pi[1][1] == True  ) ) --> (  s_next ( pi[0][1] == True  ) ) );
+
+
+Formula 10: E pi[0] E pi[1] E pi[2] :  eventually ( (  s_next ( ( pi[1][0] == True  )  or  ( pi[2][0] == True  ) ) ) <--> ( pi[0][0] == True  ) );
+
+
+Formula 11: E pi[0] :  eventually ( pi[0][1] == True  );
+
+
+Formula 12: E pi[0] E pi[1] E pi[2] : ( pi[2][0] == True  )  or  ( ( pi[1][1] == True  )  and  ( pi[0][1] == True  ) );
+
+
+Formula 13: E pi[0] FA pi[1] E pi[2] : ( pi[1][0] == True  ) <--> ( ( ( pi[0][1] == True  )  and  ( pi[1][0] == True  ) )  and  ( pi[2][1] == True  ) );
+
+
+Formula 14: E pi[0] E pi[1] FA pi[2] : ( pi[2][1] == True  )  until  (  s_next ( ( pi[1][1] == True  )  and  (  s_next ( pi[0][1] == True  ) ) ) );
+
+
+Formula 15: FA pi[0] E pi[1] : ( pi[1][0] == True  ) --> ( pi[0][0] == True  );
+
+
+Formula 16: E pi[0] FA pi[1] E pi[2] : (  not ( ( pi[1][0] == True  )  and  (  s_next ( pi[2][1] == True  ) ) ) )  and  ( pi[0][0] == True  );
+
+
+Formula 17: E pi[0] E pi[1] E pi[2] : ( ( pi[0][1] == True  )  or  (  eventually ( pi[2][1] == True  ) ) )  until  ( pi[1][1] == True  );
+
+
+Formula 18: E pi[0] FA pi[1] FA pi[2] : ( pi[0][0] == True  ) --> ( ( pi[2][1] == True  )  or  (  s_next ( pi[1][0] == True  ) ) );
+
+
+Formula 19: FA pi[0] E pi[1] E pi[2] : ( ( pi[2][1] == True  )  and  ( pi[0][1] == True  ) ) <--> ( pi[1][1] == True  );
+
+
+Formula 20: FA pi[0] FA pi[1] FA pi[2] : (  always ( pi[0][0] == True  ) ) --> ( (  s_next ( pi[2][0] == True  ) ) --> ( pi[1][1] == True  ) );
+
+
+Formula 21: FA pi[0] FA pi[1] E pi[2] : ( ( pi[1][0] == True  )  until  ( pi[2][1] == True  ) )  or  (  s_next ( pi[0][0] == True  ) );
+
+
+Formula 22: E pi[0] :  s_next ( pi[0][0] == True  );
+
+
+Formula 23: FA pi[0] E pi[1] :  not ( ( pi[0][0] == True  )  and  ( pi[1][1] == True  ) );
+
+
+Formula 24: E pi[0] FA pi[1] FA pi[2] : ( ( ( pi[2][0] == True  ) --> ( pi[1][1] == True  ) )  until  ( pi[0][1] == True  ) ) <--> ( pi[0][1] == True  );
+
+
+Formula 25: E pi[0] E pi[1] : ( pi[0][1] == True  )  and  (  not ( pi[1][1] == True  ) );
+
+
+Formula 26: E pi[0] FA pi[1] : (  not ( pi[0][0] == True  ) )  and  ( ( pi[0][1] == True  ) --> ( pi[1][1] == True  ) );
+
+
+Formula 27: E pi[0] E pi[1] : (  s_next (  eventually (  eventually (  eventually ( pi[1][1] == True  ) ) ) ) ) <--> ( pi[0][1] == True  );
+
+
+Formula 28: E pi[0] E pi[1] FA pi[2] : ( pi[1][1] == True  ) --> ( ( pi[0][0] == True  )  until  (  always ( pi[2][1] == True  ) ) );
+
+
+Formula 29: E pi[0] FA pi[1] :  eventually ( (  not ( pi[1][0] == True  ) ) --> ( ( pi[0][1] == True  ) <--> ( pi[1][1] == True  ) ) );
+
+
+Formula 30: FA pi[0] E pi[1] :  s_next ( ( pi[0][1] == True  )  until  (  not ( ( pi[1][1] == True  ) <--> ( pi[0][1] == True  ) ) ) );
+
+
+Formula 31: E pi[0] FA pi[1] E pi[2] : ( ( pi[1][0] == True  )  until  (  always ( pi[2][1] == True  ) ) )  or  ( pi[0][0] == True  );
+
+
+Formula 32: E pi[0] E pi[1] FA pi[2] : ( pi[1][0] == True  )  and  ( (  s_next ( pi[2][0] == True  ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 33: FA pi[0] E pi[1] :  s_next ( ( ( pi[1][0] == True  ) --> (  always ( pi[0][1] == True  ) ) ) --> ( pi[0][0] == True  ) );
+
+
+Formula 34: FA pi[0] E pi[1] FA pi[2] : ( ( pi[2][0] == True  )  until  ( pi[0][1] == True  ) ) --> ( pi[1][0] == True  );
+
+
+Formula 35: E pi[0] E pi[1] FA pi[2] : ( pi[1][0] == True  )  and  ( ( pi[2][1] == True  )  until  (  s_next ( pi[0][1] == True  ) ) );
+
+
+Formula 36: E pi[0] : pi[0][0] == True ;
+
+
+Formula 37: E pi[0] FA pi[1] E pi[2] :  eventually ( ( ( pi[0][1] == True  ) --> ( pi[2][1] == True  ) ) --> ( pi[1][0] == True  ) );
+
+
+Formula 38: E pi[0] FA pi[1] : (  eventually ( pi[1][1] == True  ) )  and  ( pi[0][0] == True  );
+
+
+Formula 39: E pi[0] E pi[1] : ( pi[0][1] == True  )  or  ( pi[1][1] == True  );
+
+
+Formula 40: E pi[0] E pi[1] FA pi[2] : ( ( pi[2][1] == True  )  and  ( pi[0][1] == True  ) )  until  ( pi[1][1] == True  );
+
+
+Formula 41: E pi[0] FA pi[1] E pi[2] : ( pi[0][1] == True  )  and  ( ( pi[1][1] == True  ) <--> ( pi[2][1] == True  ) );
+
+
+Formula 42: E pi[0] E pi[1] : (  not ( pi[0][1] == True  ) )  and  ( pi[1][0] == True  );
+
+
+Formula 43: E pi[0] :  not ( pi[0][1] == True  );
+
+
+Formula 44: FA pi[0] E pi[1] FA pi[2] : ( ( pi[0][0] == True  )  or  (  not ( pi[2][0] == True  ) ) )  or  ( pi[1][1] == True  );
+
+
+Formula 45: E pi[0] E pi[1] : ( pi[0][0] == True  )  until  ( pi[1][1] == True  );
+
+
+Formula 46: E pi[0] FA pi[1] E pi[2] : ( ( pi[1][0] == True  )  until  ( pi[2][0] == True  ) )  and  ( pi[0][0] == True  );
+
+
+Formula 47: FA pi[0] E pi[1] E pi[2] : ( pi[0][1] == True  ) <--> ( (  always ( pi[1][1] == True  ) )  or  (  not ( pi[2][0] == True  ) ) );
+
+
+Formula 48: E pi[0] E pi[1] : (  always ( pi[1][1] == True  ) )  or  ( pi[0][0] == True  );
+
+
+Formula 49: E pi[0] E pi[1] FA pi[2] : ( ( pi[0][1] == True  ) --> ( ( pi[2][1] == True  )  and  ( pi[2][1] == True  ) ) ) <--> ( pi[1][0] == True  );
+
+
+Formula 50: E pi[0] :  s_next (  not (  not ( pi[0][0] == True  ) ) );
+
+
+
+
+
+Variability (SAME TRAINING SAMPLES):
+
+|U_1|      = 50
+|U_1_run2| = 50
+|U_1_run3| = 50
+|U_same_s| = 147
+Variability = 0.97
+
+
+
+Computational time (seconds):
+
+time_learning_1 = 34679.69609451294
+time_learning_2 = 57576.025599718094
+time_learning_3 = 19642.464734315872
+
+
+time_learning_1_run2 = 22124.71499657631
+time_learning_1_run3 = 3092.8307631015778
+
+Total_time = 137115.7346048355     (~38.08770405689875 hours)
+
+
+Average(hours) = 7.6173888 +- 5.03456
+
+List of seeds used:
+
+For the data: same as the template setting.
+For the learning process:
+seed_learning_free_1 = 789091
+seed_learning_free_2 = 30192
+seed_learning_free_3 = 529612
+seed_learning_free_1_run2 = 128033
+seed_learning_free_1_run3 = 787993

@@ -1,0 +1,205 @@
+seed_learning = 707631
+
+Monitoring 
+
+
+seed_learning_monitoring = 861319
+
+
+
+
+Formula 1: FA pi[0] FA pi[1] :  always (  always ( ( pi[1][2] == pi[0][2]  ) <--> ( pi[0][2] == pi[1][2]  ) ) );
+
+
+
+Formula 2: FA pi[0] FA pi[1] :  not (  always (  eventually (  s_next ( ( pi[1][2] == pi[0][2]  )  or  ( pi[1][1] == pi[0][1]  ) ) ) ) );
+
+
+
+Formula 3: FA pi[0] FA pi[1] : (  not (  always (  eventually (  s_next ( pi[1][0] == pi[0][0]  ) ) ) ) )  until  ( pi[0][1] == pi[1][1]  );
+
+
+
+Formula 4: FA pi[0] FA pi[1] : ( pi[1][0] == pi[0][0]  ) <--> ( pi[0][0] == pi[1][0]  );
+
+
+
+Formula 5: FA pi[0] FA pi[1] :  s_next (  eventually (  eventually ( pi[0][2] == pi[1][2]  ) ) );
+
+
+
+Formula 6: FA pi[0] FA pi[1] :  not (  always (  not ( pi[1][2] == pi[0][2]  ) ) );
+
+
+
+Formula 7: FA pi[0] FA pi[1] :  eventually ( pi[0][1] == pi[1][1]  );
+
+
+
+Formula 8: FA pi[0] FA pi[1] :  s_next (  eventually ( pi[0][0] == pi[1][0]  ) );
+
+
+
+Formula 9: FA pi[0] FA pi[1] : (  eventually ( pi[1][2] == pi[0][2]  ) ) --> ( ( pi[0][0] == pi[1][0]  ) <--> ( pi[0][0] == pi[1][0]  ) );
+
+
+
+Formula 10: FA pi[0] FA pi[1] :  s_next ( (  eventually ( pi[1][1] == pi[0][1]  ) )  or  (  eventually ( pi[0][0] == pi[1][0]  ) ) );
+
+
+
+Formula 11: FA pi[0] FA pi[1] :  eventually ( pi[0][2] == pi[1][2]  );
+
+
+
+Formula 12: FA pi[0] FA pi[1] : (  not ( ( pi[0][1] == pi[1][1]  )  and  ( pi[0][2] == pi[1][2]  ) ) )  until  ( pi[0][1] == pi[1][1]  );
+
+
+
+Formula 13: FA pi[0] FA pi[1] : ( pi[1][0] == pi[0][0]  )  until  (  not (  s_next (  s_next (  always ( pi[0][0] == pi[1][0]  ) ) ) ) );
+
+
+
+Formula 14: FA pi[0] FA pi[1] :  s_next (  eventually ( pi[0][1] == pi[1][1]  ) );
+
+
+
+Formula 15: FA pi[0] FA pi[1] :  always ( ( pi[1][1] == pi[0][1]  )  or  (  not ( pi[1][1] == pi[0][1]  ) ) );
+
+
+
+Formula 16: FA pi[0] FA pi[1] : ( ( pi[1][0] == pi[0][0]  ) <--> ( pi[0][0] == pi[1][0]  ) )  and  ( ( pi[0][2] == pi[1][2]  ) <--> ( pi[1][2] == pi[0][2]  ) );
+
+
+
+Formula 17: FA pi[0] FA pi[1] :  always ( (  eventually ( pi[1][1] == pi[0][1]  ) )  until  (  not (  s_next ( pi[1][1] == pi[0][1]  ) ) ) );
+
+
+
+Formula 18: FA pi[0] FA pi[1] :  always ( ( pi[0][0] == pi[1][0]  )  or  ( ( pi[1][0] == pi[0][0]  ) --> (  always ( pi[0][2] == pi[1][2]  ) ) ) );
+
+
+
+Formula 19: FA pi[0] FA pi[1] : (  eventually (  not (  s_next ( pi[1][0] == pi[0][0]  ) ) ) )  or  ( pi[1][0] == pi[0][0]  );
+
+
+
+Formula 20: FA pi[0] FA pi[1] :  s_next ( ( ( pi[1][0] == pi[0][0]  )  until  ( pi[0][1] == pi[1][1]  ) )  or  (  eventually ( pi[0][2] == pi[1][2]  ) ) );
+
+
+
+time_learning (total) = 7406.119 seconds
+
+
+
+
+Fitness 
+
+
+seed_learning_fitness = 123402
+
+
+
+
+
+Formula 1: FA pi[0] FA pi[1] :  s_next ( ( pi[1][1] == pi[0][1]  ) <--> ( pi[0][1] == pi[1][1]  ) );
+
+
+
+
+Formula 2: FA pi[0] FA pi[1] :  not (  always (  s_next (  not (  s_next (  s_next ( pi[1][0] == pi[0][0]  ) ) ) ) ) );
+
+
+
+
+Formula 3: FA pi[0] FA pi[1] :  always ( (  always ( pi[0][0] == pi[1][0]  ) )  until  ( ( pi[1][1] == pi[0][1]  ) --> ( pi[1][1] == pi[0][1]  ) ) );
+
+
+
+
+Formula 4: FA pi[0] FA pi[1] : (  always ( pi[1][2] == pi[0][2]  ) ) --> ( pi[0][2] == pi[1][2]  );
+
+
+
+
+Formula 5: FA pi[0] FA pi[1] :  s_next (  eventually ( pi[1][1] == pi[0][1]  ) );
+
+
+
+
+Formula 6: FA pi[0] FA pi[1] :  not (  eventually (  always (  s_next ( pi[1][1] == pi[0][1]  ) ) ) );
+
+
+
+
+Formula 7: FA pi[0] FA pi[1] :  s_next (  eventually ( pi[0][0] == pi[1][0]  ) );
+
+
+
+
+Formula 8: FA pi[0] FA pi[1] :  eventually (  eventually ( pi[1][0] == pi[0][0]  ) );
+
+
+
+
+Formula 9: FA pi[0] FA pi[1] :  eventually (  s_next ( ( pi[1][2] == pi[0][2]  )  until  ( pi[1][2] == pi[0][2]  ) ) );
+
+
+
+
+Formula 10: FA pi[0] FA pi[1] :  eventually ( pi[0][0] == pi[1][0]  );
+
+
+
+
+Formula 11: FA pi[0] FA pi[1] : ( pi[1][2] == pi[0][2]  ) <--> ( pi[0][2] == pi[1][2]  );
+
+
+
+
+Formula 12: FA pi[0] FA pi[1] : ( pi[0][1] == pi[1][1]  )  until  (  eventually ( pi[0][1] == pi[1][1]  ) );
+
+
+
+
+Formula 13: FA pi[0] FA pi[1] :  eventually ( (  not ( pi[0][2] == pi[1][2]  ) )  or  (  always ( pi[1][0] == pi[0][0]  ) ) );
+
+
+
+
+Formula 14: FA pi[0] FA pi[1] : ( pi[1][1] == pi[0][1]  ) <--> ( ( pi[1][1] == pi[0][1]  )  or  (  always ( pi[0][1] == pi[1][1]  ) ) );
+
+
+
+
+Formula 15: FA pi[0] FA pi[1] :  eventually ( pi[1][2] == pi[0][2]  );
+
+
+
+
+Formula 16: FA pi[0] FA pi[1] :  always ( ( pi[0][1] == pi[1][1]  ) --> ( pi[0][1] == pi[1][1]  ) );
+
+
+
+
+Formula 17: FA pi[0] FA pi[1] :  eventually (  s_next ( pi[1][2] == pi[0][2]  ) );
+
+
+
+
+Formula 18: FA pi[0] FA pi[1] :  s_next (  eventually ( pi[0][2] == pi[1][2]  ) );
+
+
+
+
+Formula 19: FA pi[0] FA pi[1] :  not (  always (  s_next (  s_next (  not ( pi[0][2] == pi[1][2]  ) ) ) ) );
+
+
+
+
+Formula 20: FA pi[0] FA pi[1] :  s_next ( ( pi[0][1] == pi[1][1]  ) --> (  eventually ( pi[0][2] == pi[1][2]  ) ) );
+
+
+
+
+time_learning (total) = 92659.655 seconds
