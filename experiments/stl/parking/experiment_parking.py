@@ -133,9 +133,9 @@ seed_learning_2 = 361441 #random.randint(0, 1000000)
 seed_negative_test_2 = 817553#random.randint(0, 1000000)
 seed_learning_template_2 = 832195#random.randint(0, 1000000)
 
+data_path = '../../../data/DataDemo/'
 
-
-learning_traces_2, positive_test_traces_2, min_length = dc.collect_parking_data(numb_traces, seed_learning_2)
+learning_traces_2, positive_test_traces_2, min_length = dc.collect_parking_data(numb_traces, seed_learning_2, path =  data_path)
 negative_test_traces_2 = dc.data_random_binary_real(min_length, numb_traces, seed_negative_test_2)
 
 n = len(learning_traces_2[0])  # number of variables
