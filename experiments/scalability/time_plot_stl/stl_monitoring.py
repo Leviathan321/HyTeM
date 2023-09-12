@@ -35,10 +35,10 @@ fraction = 1 # threshold x binary search unknown region
 start_time_learning_1 = time.time()
 
 seed_learning_1 =   502259#random.randint(0, 1000000)
-learning_traces , _, min_length = dc.collect_parking_data(numb_traces, seed_learning_1)
 
+data_path = '../../../data/DataDemo/'
 
-
+learning_traces , _, min_length = dc.collect_parking_data(numb_traces, seed_learning_1, path =  data_path)
 
 with open(f'{file_name}','a') as file:
     file.write(f'seed_learning_1 = {seed_learning_1}')

@@ -1,0 +1,13 @@
+# IDE
+.vscode/
+*.code-workspace
+
+# Python
+env/
+**/__pycache__/
+build/
+**/*.pyc
+dist
+
+# *.obj data in output
+experiments/stl/parking/**/*.obj

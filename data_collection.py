@@ -477,18 +477,19 @@ def CollectCarlaData():
     
     return traces
 
-def collect_parking_data(numb_traces, seed):
+def collect_parking_data(numb_traces, seed, path=None):
 
     np.random.seed(seed)
     
-    path = '../../../data/DataCarla/'
+    if path is None:
+        path = '../../../data/DataCarla/'
     # path = 'data/DataCarla/'
     dataset_name = 'disttrigger_'
     
     traces = []
     list_length = []
     
-    n = 800
+    n = 3
     for p in range(0, n): 
     
         data = pd.read_csv(f"{path}{dataset_name}{p}.csv", header = None)
