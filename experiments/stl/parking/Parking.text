@@ -1,0 +1,1503 @@
+TEMPLATE SEARCH 
+
+
+Experiment 1:
+
+
+Formula 1: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 2: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 3: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 4: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) --> (  not (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) );
+
+
+Formula 5: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 6: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 7: FA pi[0] FA pi[1] :  always( (  not (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 8: FA pi[0] FA pi[1] :  always( (  always (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) );
+
+
+Formula 9: FA pi[0] FA pi[1] :  always( (  not (  always ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 10: FA pi[0] FA pi[1] :  always( ( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) )  until  ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 11: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) --> (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 12: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 13: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 14: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  eventually (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) ) );
+
+
+Formula 15: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 16: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 17: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 18: FA pi[0] FA pi[1] :  always( ( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) )  and  ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 19: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) --> (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 20: FA pi[0] FA pi[1] :  always( (  always (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 21: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) ) --> (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 22: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) --> (  not ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) );
+
+
+Formula 23: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 24: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) --> (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 25: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 26: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  eventually (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) ) );
+
+
+Formula 27: FA pi[0] FA pi[1] :  always( (  always (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 28: FA pi[0] FA pi[1] :  always( (  not (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) );
+
+
+Formula 29: FA pi[0] FA pi[1] :  always( (  eventually (  always ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 30: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) );
+
+
+Formula 31: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) );
+
+
+Formula 32: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) --> (  not (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) ) );
+
+
+Formula 33: FA pi[0] FA pi[1] :  always( (  eventually (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+
+Experiment 2:
+
+
+Formula 1: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) --> (  not ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) );
+
+
+Formula 2: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 3: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 4: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 5: FA pi[0] FA pi[1] :  always( (  eventually (  not ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 6: FA pi[0] FA pi[1] :  always( ( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) )  until  ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 7: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) ) --> (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 8: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 9: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 10: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 11: FA pi[0] FA pi[1] :  always( ( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) )  or  ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 12: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) --> (  eventually (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) );
+
+
+Formula 13: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) --> (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 14: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 15: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  eventually (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) ) );
+
+
+Formula 16: FA pi[0] FA pi[1] :  always( (  eventually (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 17: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) --> (  not (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) );
+
+
+Formula 18: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) --> (  eventually (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) );
+
+
+Formula 19: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) ) --> (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 20: FA pi[0] FA pi[1] :  always( (  eventually (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 21: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) );
+
+
+Formula 22: FA pi[0] FA pi[1] :  always( (  always (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) );
+
+
+Formula 23: FA pi[0] FA pi[1] :  always( (  not (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 24: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) --> (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 25: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 26: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) );
+
+
+Formula 27: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 28: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  always (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) ) );
+
+
+Formula 29: FA pi[0] FA pi[1] :  always( (  eventually (  always ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 30: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 31: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  always (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) ) );
+
+
+
+Experiment 3:
+
+
+
+Formula 1: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+
+Formula 2: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+
+Formula 3: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+
+Formula 4: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) ) --> (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+
+Formula 5: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) );
+
+
+
+Formula 6: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  always (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) ) );
+
+
+
+Formula 7: FA pi[0] FA pi[1] :  always( (  eventually (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+
+Formula 8: FA pi[0] FA pi[1] :  always( ( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) )  until  ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+
+Formula 9: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+
+Formula 10: FA pi[0] FA pi[1] :  always( (  always (  not ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+
+Formula 11: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) --> (  always (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) );
+
+
+
+Formula 12: FA pi[0] FA pi[1] :  always( (  not (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) );
+
+
+
+Formula 13: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+
+Formula 14: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+
+Formula 15: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) );
+
+
+
+Formula 16: FA pi[0] FA pi[1] :  always( (  eventually (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+
+Formula 17: FA pi[0] FA pi[1] :  always( (  not (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) );
+
+
+
+Formula 18: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) );
+
+
+
+Formula 19: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+
+Formula 20: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> (  always (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) ) );
+
+
+
+Formula 21: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) );
+
+
+
+Formula 22: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+
+Formula 23: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+
+Formula 24: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+
+Formula 25: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) --> (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+
+Formula 26: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) --> (  eventually (  not ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) ) );
+
+
+
+Formula 27: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) --> (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+
+Formula 28: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) --> (  not ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) );
+
+
+
+Formula 29: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) );
+
+
+
+Formula 30: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  eventually (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) ) );
+
+
+
+Formula 31: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) --> (  not (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) ) );
+
+
+
+Formula 32: FA pi[0] FA pi[1] :  always( (  not (  always ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+
+Formula 33: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> (  not ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) );
+
+
+
+Formula 34: FA pi[0] FA pi[1] :  always( (  always (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+
+
+
+Variability (DIFFERENT TRAINING SAMPLES):
+
+|T_1| = 33
+|T_2| = 31
+|T_3| = 34
+|T|   = 55
+Variability   = 0.34183673469387754
+
+
+
+Ratio of false positives:
+
+ratio_false_positives_1 = 0.09090909090909091
+ratio_false_positives_2 = 0.0967741935483871
+ratio_false_positives_3 = 0.058823529411764705
+
+Average = 0.08216893795641424 +- 0.01668044628359438
+
+
+
+Ratio of false negatives:
+
+ratio_false_negatives_1 = 0.0
+ratio_false_negatives_2 = 0.0
+ratio_false_negatives_3 = 0.0
+
+Average = 0.0 +- 0.0
+
+
+Second run with the same traces as Experiment 1:
+
+
+Formula 1: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 2: FA pi[0] FA pi[1] :  always( (  eventually (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) );
+
+
+Formula 3: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 4: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 5: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) );
+
+
+Formula 6: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 7: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 8: FA pi[0] FA pi[1] :  always( (  eventually (  always ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 9: FA pi[0] FA pi[1] :  always( (  not (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) );
+
+
+Formula 10: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 11: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 12: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) );
+
+
+Formula 13: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) ) --> (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 14: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) );
+
+
+Formula 15: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 16: FA pi[0] FA pi[1] :  always( (  always (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 17: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) --> (  not (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) ) );
+
+
+Formula 18: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) --> (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 19: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  always (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) ) );
+
+
+Formula 20: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> (  not ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) );
+
+
+Formula 21: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) );
+
+
+Formula 22: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 23: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> (  always (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) ) );
+
+
+Formula 24: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) --> (  always (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) );
+
+
+Formula 25: FA pi[0] FA pi[1] :  always( (  eventually (  not ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 26: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  always (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) ) );
+
+
+Formula 27: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) --> (  not ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) );
+
+
+
+
+Third run with the same traces as Experiment 1:
+
+
+Formula 1: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 2: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 3: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 4: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> (  always (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) ) );
+
+
+Formula 5: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> ( ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) )  and  ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 6: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) --> (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 7: FA pi[0] FA pi[1] :  always( (  not (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) );
+
+
+Formula 8: FA pi[0] FA pi[1] :  always( (  not (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) );
+
+
+Formula 9: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) --> (  eventually (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) );
+
+
+Formula 10: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 11: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 12: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 13: FA pi[0] FA pi[1] :  always( (  always (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 14: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 15: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) --> (  not ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) );
+
+
+Formula 16: FA pi[0] FA pi[1] :  always( (  always (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 17: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> ( ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) )  until  ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) );
+
+
+Formula 18: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 19: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) --> (  eventually (  not ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) ) );
+
+
+Formula 20: FA pi[0] FA pi[1] :  always( (  always (  always ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 21: FA pi[0] FA pi[1] :  always( (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 22: FA pi[0] FA pi[1] :  always( (  eventually (  not ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 23: FA pi[0] FA pi[1] :  always( (  always (  not ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 24: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) );
+
+
+Formula 25: FA pi[0] FA pi[1] :  always( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) --> (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) );
+
+
+Formula 26: FA pi[0] FA pi[1] :  always( (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) );
+
+
+Formula 27: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> (  not ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) );
+
+
+Formula 28: FA pi[0] FA pi[1] :  always( ( ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 29: FA pi[0] FA pi[1] :  always( (  eventually (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 30: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 31: FA pi[0] FA pi[1] :  always( ( ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) )  or  ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 32: FA pi[0] FA pi[1] :  always( (  always (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 33: FA pi[0] FA pi[1] :  always( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 34: FA pi[0] FA pi[1] :  always( (  not (  always ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+
+
+
+Variability (SAME TRAINING SAMPLES):
+
+|T_1|      = 33
+|T_1_run2| = 27
+|T_1_run3| = 34
+|T_same_s| = 56
+Variability = 0.39361702127659576
+
+
+
+Computational time (seconds):
+
+time_learning_1 = 78.93813943862915
+time_learning_2 = 76.24477219581604
+time_learning_3 = 62.492472887039185
+
+Average = 72.55846150716145 +- 7.2021594887222555
+time_learning_1_run2 = 17.913257360458374
+time_learning_1_run3 = 26.903448343276978
+
+Total_time = 262.49288988113403     (~0.07291469163364835 hours)
+
+
+
+
+
+List of seeds used:
+
+
+seed_learning_1 = 991781
+seed_negative_test_1 = 961339
+seed_learning_template_1 =342134
+
+seed_learning_2 = 361441
+seed_negative_test_2 = 817553
+seed_learning_template_2 =832195
+
+seed_learning_3 = 744858
+seed_negative_test_3 = 513738
+seed_learning_template_3 =882559
+
+seed_learning_template_1_run2 = 646289
+seed_learning_template_1_run3 = 71180
+
+
+
+######################################################################################################
+UNRESTRICTED SEARCH 
+
+
+Experiment 1:
+
+
+Formula 1: FA pi[0] : (  not (  always (  always (  ( pi[0][1] > 50 ) ) ) ) ) --> (  ( pi[0][0] < 0.1 ) );
+
+
+Formula 2: FA pi[0] :  always (  ( pi[0][0] < 6.3375 ) );
+
+
+Formula 3: FA pi[0] E pi[1] FA pi[2] :  not ( (  ( pi[1][1] > 0.1 ) )  until  (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) );
+
+
+Formula 4: E pi[0] FA pi[1] :  always ( ( ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) )  and  ( ( abs( pi[0][0] - pi[1][0] ) < 12.575000000000001 ) ) )  until  (  ( pi[1][0] < 0.1 ) ) );
+
+
+Formula 5: E pi[0] E pi[1] E pi[2] :  always (  not (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 18.8125 ) ) );
+
+
+Formula 6: E pi[0] E pi[1] :  always (  not ( ( ( abs( pi[0][0] - pi[1][0] ) < 50 ) )  until  (  ( pi[0][1] > 0.1 ) ) ) );
+
+
+Formula 7: FA pi[0] FA pi[1] FA pi[2] : (  always ( ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) )  or  (  ( pi[0][1] > 50 ) ) ) )  until  (  ( pi[2][0] < 0.1 ) );
+
+
+Formula 8: E pi[0] E pi[1] :  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) );
+
+
+Formula 9: FA pi[0] E pi[1] FA pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) )  and  (  eventually (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 10: FA pi[0] FA pi[1] E pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) )  or  (  ( pi[0][1] > 50 ) );
+
+
+Formula 11: E pi[0] E pi[1] E pi[2] : (  not ( (  ( pi[2][1] > 0.1 ) )  or  (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) ) )  and  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+Formula 12: E pi[0] FA pi[1] : ( abs( pi[0][0] - pi[1][0] ) < 0.1 );
+
+
+Formula 13: E pi[0] FA pi[1] E pi[2] : ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) )  or  ( (  ( pi[1][0] < 0.1 ) )  and  (  ( pi[2][0] < 0.1 ) ) );
+
+
+Formula 14: E pi[0] FA pi[1] :  always (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 15: E pi[0] FA pi[1] : ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  until  (  not (  eventually (  eventually (  ( pi[0][1] > 0.1 ) ) ) ) );
+
+
+Formula 16: E pi[0] FA pi[1] E pi[2] :  eventually ( ( (  ( pi[2][0] < 50 ) ) --> (  ( pi[0][1] > 50 ) ) )  until  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+Formula 17: E pi[0] FA pi[1] E pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) )  or  (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) );
+
+
+Formula 18: E pi[0] FA pi[1] E pi[2] : (  ( pi[2][1] > 50 ) )  or  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+Formula 19: FA pi[0] FA pi[1] FA pi[2] :  not ( (  ( pi[2][0] < 0.1 ) ) --> (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) );
+
+
+Formula 20: E pi[0] FA pi[1] :  always ( (  ( pi[0][0] < 6.3375 ) )  and  ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 21: FA pi[0] E pi[1] E pi[2] :  eventually ( (  ( pi[2][0] < 3.21875 ) )  and  (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 3.21875 ) ) );
+
+
+Formula 22: E pi[0] E pi[1] :  eventually (  not (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) );
+
+
+Formula 23: E pi[0] FA pi[1] FA pi[2] : (  not (  ( pi[0][1] > 0.1 ) ) )  until  (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 12.575000000000001 ) );
+
+
+Formula 24: FA pi[0] E pi[1] E pi[2] : (  not (  always (  ( pi[2][1] > 50 ) ) ) ) --> (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) );
+
+
+Formula 25: E pi[0] FA pi[1] E pi[2] : (  always (  eventually (  ( pi[2][0] < 0.1 ) ) ) )  and  (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) );
+
+
+Formula 26: FA pi[0] : (  ( pi[0][0] < 50 ) ) --> (  eventually (  not (  ( pi[0][1] > 0.1 ) ) ) );
+
+
+Formula 27: E pi[0] FA pi[1] E pi[2] : (  ( pi[1][1] > 50 ) )  until  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+Formula 28: E pi[0] FA pi[1] FA pi[2] : (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 50 ) )  or  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+Formula 29: FA pi[0] E pi[1] :  eventually ( (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) )  or  (  always (  ( pi[1][1] > 50 ) ) ) );
+
+
+Formula 30: FA pi[0] FA pi[1] E pi[2] :  always ( ( ( abs( pi[0][0] - pi[1][0] ) < 12.575000000000001 ) )  until  (  ( pi[2][0] < 0.1 ) ) );
+
+
+Formula 31: FA pi[0] E pi[1] :  not (  always (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) );
+
+
+Formula 32: E pi[0] FA pi[1] E pi[2] :  not (  eventually (  eventually (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 18.8125 ) ) ) );
+
+
+Formula 33: E pi[0] E pi[1] E pi[2] :  eventually ( (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) )  and  (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 15.693750000000001 ) ) );
+
+
+Formula 34: FA pi[0] FA pi[1] FA pi[2] :  eventually (  eventually (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 15.693750000000001 ) ) );
+
+
+Formula 35: E pi[0] FA pi[1] E pi[2] : (  eventually (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 12.575000000000001 ) ) )  and  (  ( pi[1][0] < 0.1 ) );
+
+
+Formula 36: E pi[0] FA pi[1] :  always ( (  ( pi[1][1] > 46.88125 ) )  until  (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) ) );
+
+
+Formula 37: E pi[0] E pi[1] FA pi[2] :  always ( (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) ) --> (  always (  ( pi[0][0] < 6.3375 ) ) ) );
+
+
+Formula 38: FA pi[0] FA pi[1] E pi[2] : (  ( pi[2][0] < 0.1 ) )  or  (  always (  not (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) ) );
+
+
+Formula 39: FA pi[0] E pi[1] FA pi[2] :  always ( ( ( abs( pi[0][1] - pi[1][1] ) < 12.575000000000001 ) )  until  (  ( pi[2][0] < 0.1 ) ) );
+
+
+Formula 40: FA pi[0] E pi[1] E pi[2] : ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  and  (  ( pi[2][0] < 0.1 ) );
+
+
+Formula 41: E pi[0] E pi[1] FA pi[2] : (  not (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) )  or  (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 42: E pi[0] FA pi[1] : ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  and  (  not (  ( pi[1][1] > 0.1 ) ) );
+
+
+Formula 43: E pi[0] : (  eventually (  ( pi[0][1] > 50 ) ) )  or  (  eventually (  ( pi[0][0] < 0.1 ) ) );
+
+
+Formula 44: FA pi[0] FA pi[1] E pi[2] : (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) )  until  (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 12.575000000000001 ) );
+
+
+Formula 45: FA pi[0] FA pi[1] E pi[2] :  always ( (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) ) --> (  ( pi[0][0] < 6.3375 ) ) );
+
+
+Formula 46: E pi[0] FA pi[1] : ( ( abs( pi[0][0] - pi[1][0] ) < 50 ) ) --> (  always (  ( pi[0][0] < 6.3375 ) ) );
+
+
+Formula 47: FA pi[0] FA pi[1] :  not ( (  ( pi[1][1] > 0.1 ) )  and  ( (  ( pi[0][0] < 50 ) )  and  (  ( pi[0][1] > 0.1 ) ) ) );
+
+
+Formula 48: FA pi[0] E pi[1] :  eventually ( (  ( pi[0][0] < 0.1 ) )  and  ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) );
+
+
+Formula 49: E pi[0] :  eventually (  ( pi[0][0] < 0.1 ) );
+
+
+Formula 50: E pi[0] FA pi[1] FA pi[2] : ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) )  or  (  always (  always (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) ) );
+
+
+
+Experiment 2:
+
+
+Formula 1: FA pi[0] FA pi[1] :  always (  eventually (  always (  not ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) ) );
+
+
+Formula 2: FA pi[0] FA pi[1] FA pi[2] :  always ( (  ( pi[2][1] > 0.1 ) ) --> (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 50 ) ) );
+
+
+Formula 3: FA pi[0] E pi[1] E pi[2] : ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  and  (  eventually (  eventually (  ( pi[2][0] < 0.1 ) ) ) );
+
+
+Formula 4: FA pi[0] E pi[1] FA pi[2] : ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  or  (  ( pi[2][1] > 50 ) );
+
+
+Formula 5: E pi[0] FA pi[1] : ( abs( pi[0][0] - pi[1][0] ) < 0.1 );
+
+
+Formula 6: FA pi[0] E pi[1] :  eventually (  not ( ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  or  (  ( pi[1][0] < 0.1 ) ) ) );
+
+
+Formula 7: FA pi[0] FA pi[1] FA pi[2] :  always ( (  ( pi[0][1] > 50 ) )  or  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+Formula 8: FA pi[0] E pi[1] E pi[2] : (  eventually (  ( pi[0][1] > 50 ) ) )  or  ( (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) ) --> (  ( pi[0][0] < 0.1 ) ) );
+
+
+Formula 9: E pi[0] FA pi[1] :  not (  eventually (  always (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) );
+
+
+Formula 10: FA pi[0] E pi[1] E pi[2] :  eventually (  always ( (  ( pi[1][1] > 0.1 ) ) --> (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) ) );
+
+
+Formula 11: E pi[0] FA pi[1] E pi[2] :  not (  eventually (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 18.8125 ) ) );
+
+
+Formula 12: FA pi[0] E pi[1] FA pi[2] : (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 50 ) )  until  (  eventually (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+Formula 13: E pi[0] E pi[1] E pi[2] : (  not (  eventually (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) ) )  until  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+Formula 14: FA pi[0] E pi[1] : ( abs( pi[0][1] - pi[1][1] ) < 0.1 );
+
+
+Formula 15: FA pi[0] FA pi[1] E pi[2] :  always (  not (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 18.8125 ) ) );
+
+
+Formula 16: FA pi[0] : (  always (  not (  ( pi[0][1] > 50 ) ) ) ) --> (  always (  ( pi[0][0] < 6.3375 ) ) );
+
+
+Formula 17: E pi[0] E pi[1] FA pi[2] : (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) )  and  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 3.21875 ) );
+
+
+Formula 18: E pi[0] FA pi[1] E pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) )  or  (  always (  ( pi[2][1] > 50 ) ) );
+
+
+Formula 19: E pi[0] E pi[1] FA pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) )  and  ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) );
+
+
+Formula 20: FA pi[0] FA pi[1] E pi[2] :  always ( ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) )  or  (  ( pi[2][1] > 46.88125 ) ) );
+
+
+Formula 21: E pi[0] FA pi[1] FA pi[2] :  always (  eventually (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+Formula 22: FA pi[0] FA pi[1] E pi[2] : (  eventually (  eventually (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+Formula 23: FA pi[0] E pi[1] FA pi[2] :  not ( (  ( pi[1][1] > 0.1 ) )  and  (  always (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) ) );
+
+
+Formula 24: FA pi[0] E pi[1] E pi[2] : (  not (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) )  or  (  ( pi[1][1] > 50 ) );
+
+
+Formula 25: FA pi[0] :  ( pi[0][0] < 0.1 );
+
+
+Formula 26: FA pi[0] E pi[1] :  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) );
+
+
+Formula 27: E pi[0] : (  always (  always (  not (  ( pi[0][1] > 0.1 ) ) ) ) )  until  (  ( pi[0][0] < 0.1 ) );
+
+
+Formula 28: FA pi[0] E pi[1] FA pi[2] : (  not (  eventually (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) ) )  until  (  eventually (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+Formula 29: E pi[0] FA pi[1] FA pi[2] : (  always ( (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) )  or  (  ( pi[1][1] > 50 ) ) ) )  or  ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) );
+
+
+Formula 30: FA pi[0] FA pi[1] E pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) )  and  (  eventually (  ( pi[2][0] < 0.1 ) ) );
+
+
+Formula 31: FA pi[0] E pi[1] :  eventually (  always ( ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) --> (  ( pi[0][1] > 0.1 ) ) ) );
+
+
+Formula 32: E pi[0] E pi[1] : ( abs( pi[0][1] - pi[1][1] ) < 0.1 );
+
+
+Formula 33: E pi[0] :  ( pi[0][0] < 0.1 );
+
+
+Formula 34: E pi[0] FA pi[1] :  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) );
+
+
+Formula 35: FA pi[0] FA pi[1] :  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) );
+
+
+Formula 36: E pi[0] FA pi[1] FA pi[2] :  always (  always (  eventually (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) ) );
+
+
+Formula 37: E pi[0] :  eventually (  not (  eventually (  ( pi[0][1] > 0.1 ) ) ) );
+
+
+Formula 38: E pi[0] E pi[1] E pi[2] : (  ( pi[0][0] < 0.1 ) )  and  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+Formula 39: E pi[0] E pi[1] :  not ( (  always (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) )  and  (  ( pi[0][0] < 50 ) ) );
+
+
+Formula 40: FA pi[0] E pi[1] FA pi[2] :  not (  always (  eventually (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) ) );
+
+
+Formula 41: FA pi[0] E pi[1] FA pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) )  and  (  always (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+Formula 42: E pi[0] E pi[1] :  not (  always (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 43: E pi[0] E pi[1] FA pi[2] :  eventually ( (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) --> (  ( pi[0][1] > 50 ) ) );
+
+
+Formula 44: FA pi[0] FA pi[1] FA pi[2] : (  always (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 50 ) ) )  until  (  eventually (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 45: FA pi[0] : (  ( pi[0][0] < 0.1 ) )  or  (  always (  ( pi[0][1] > 50 ) ) );
+
+
+Formula 46: E pi[0] : (  eventually (  ( pi[0][1] > 0.1 ) ) ) --> (  ( pi[0][0] < 0.1 ) );
+
+
+Formula 47: E pi[0] FA pi[1] :  not (  always ( ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  or  (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) ) );
+
+
+Formula 48: FA pi[0] FA pi[1] E pi[2] : (  always (  always (  ( pi[2][0] < 6.3375 ) ) ) )  and  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+Formula 49: FA pi[0] :  eventually ( (  ( pi[0][1] > 0.1 ) ) --> (  not (  ( pi[0][0] < 50 ) ) ) );
+
+
+Formula 50: E pi[0] FA pi[1] E pi[2] : (  ( pi[2][1] > 46.88125 ) )  or  (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+
+Experiment 3:
+
+
+
+Formula 1: FA pi[0] E pi[1] FA pi[2] : (  eventually (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) )  and  (  ( pi[2][0] < 0.1 ) );
+
+
+
+Formula 2: E pi[0] FA pi[1] FA pi[2] :  not ( (  eventually (  eventually (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) ) )  until  (  ( pi[2][1] > 0.1 ) ) );
+
+
+
+Formula 3: FA pi[0] FA pi[1] E pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 3.21875 ) )  and  (  eventually (  not (  ( pi[2][0] < 3.21875 ) ) ) );
+
+
+
+Formula 4: FA pi[0] FA pi[1] E pi[2] :  not (  eventually (  not (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) ) );
+
+
+
+Formula 5: E pi[0] E pi[1] FA pi[2] :  eventually (  not ( (  eventually (  ( pi[2][1] > 0.1 ) ) )  or  (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) ) );
+
+
+
+Formula 6: E pi[0] FA pi[1] FA pi[2] :  not ( (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) )  and  ( (  ( pi[1][0] < 50 ) )  and  (  ( pi[2][0] < 50 ) ) ) );
+
+
+
+Formula 7: E pi[0] E pi[1] : (  ( pi[1][1] > 50 ) )  or  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+
+Formula 8: E pi[0] E pi[1] :  not (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) );
+
+
+
+Formula 9: E pi[0] : (  always (  not (  eventually (  ( pi[0][0] < 0.1 ) ) ) ) ) --> (  ( pi[0][1] > 50 ) );
+
+
+
+Formula 10: E pi[0] E pi[1] E pi[2] :  eventually (  always ( (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) --> (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) );
+
+
+
+Formula 11: E pi[0] E pi[1] FA pi[2] : ( (  ( pi[0][1] > 50 ) )  or  (  not (  ( pi[2][1] > 0.1 ) ) ) )  and  ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) );
+
+
+
+Formula 12: FA pi[0] FA pi[1] E pi[2] : (  not (  eventually (  eventually (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 18.8125 ) ) ) ) )  or  (  ( pi[0][1] > 50 ) );
+
+
+
+Formula 13: FA pi[0] FA pi[1] E pi[2] : (  always (  ( pi[2][0] < 0.1 ) ) )  until  (  eventually (  eventually (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) ) );
+
+
+
+Formula 14: FA pi[0] FA pi[1] E pi[2] :  not (  not (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+
+Formula 15: FA pi[0] FA pi[1] : (  ( pi[1][0] < 50 ) ) --> (  always (  not (  always (  ( pi[0][1] > 0.1 ) ) ) ) );
+
+
+
+Formula 16: E pi[0] :  eventually (  not (  ( pi[0][1] > 0.1 ) ) );
+
+
+
+Formula 17: E pi[0] E pi[1] E pi[2] : (  not ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) --> (  ( pi[2][1] > 50 ) );
+
+
+
+Formula 18: E pi[0] :  not (  eventually (  always (  eventually (  ( pi[0][1] > 0.1 ) ) ) ) );
+
+
+
+Formula 19: FA pi[0] FA pi[1] :  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+
+Formula 20: FA pi[0] FA pi[1] : ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  or  (  not (  always (  ( pi[0][0] < 50 ) ) ) );
+
+
+
+Formula 21: E pi[0] E pi[1] : ( abs( pi[0][1] - pi[1][1] ) < 0.1 );
+
+
+
+Formula 22: E pi[0] :  eventually (  not (  always (  ( pi[0][1] > 0.1 ) ) ) );
+
+
+
+Formula 23: E pi[0] :  always (  not (  ( pi[0][1] > 0.1 ) ) );
+
+
+
+Formula 24: FA pi[0] E pi[1] E pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 3.21875 ) )  and  (  always (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) );
+
+
+
+Formula 25: FA pi[0] FA pi[1] E pi[2] : (  not (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) ) )  until  ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) );
+
+
+
+Formula 26: E pi[0] FA pi[1] E pi[2] : ( (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) --> (  ( pi[2][0] < 0.1 ) ) )  and  ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) );
+
+
+
+Formula 27: E pi[0] FA pi[1] FA pi[2] : (  ( pi[0][1] > 50 ) )  or  (  eventually (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+
+Formula 28: FA pi[0] FA pi[1] FA pi[2] :  always (  always (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+
+Formula 29: FA pi[0] FA pi[1] : (  ( pi[1][1] > 0.1 ) ) --> (  always (  ( pi[0][0] < 0.1 ) ) );
+
+
+
+Formula 30: E pi[0] FA pi[1] FA pi[2] : ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  until  (  eventually (  always (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) ) );
+
+
+
+Formula 31: FA pi[0] :  always (  ( pi[0][0] < 6.3375 ) );
+
+
+
+Formula 32: E pi[0] FA pi[1] FA pi[2] :  not (  always (  not (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 15.693750000000001 ) ) ) );
+
+
+
+Formula 33: FA pi[0] :  ( pi[0][0] < 0.1 );
+
+
+
+Formula 34: FA pi[0] E pi[1] : (  not (  eventually (  ( pi[0][1] > 0.1 ) ) ) )  or  (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) );
+
+
+
+Formula 35: E pi[0] FA pi[1] E pi[2] :  eventually ( (  ( pi[2][0] < 50 ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+
+Formula 36: FA pi[0] FA pi[1] FA pi[2] :  eventually (  eventually (  not (  eventually (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) ) ) );
+
+
+
+Formula 37: E pi[0] E pi[1] : (  ( pi[0][1] > 50 ) )  until  (  not (  not (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) ) );
+
+
+
+Formula 38: E pi[0] FA pi[1] E pi[2] : (  ( pi[0][0] < 0.1 ) )  until  (  always (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+
+Formula 39: E pi[0] FA pi[1] :  always (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+
+Formula 40: E pi[0] : (  always (  eventually (  always (  ( pi[0][1] > 0.1 ) ) ) ) ) --> (  ( pi[0][0] < 0.1 ) );
+
+
+
+Formula 41: E pi[0] : (  ( pi[0][0] < 0.1 ) )  or  (  ( pi[0][1] > 50 ) );
+
+
+
+Formula 42: FA pi[0] FA pi[1] E pi[2] :  eventually (  not ( (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) )  until  (  always (  ( pi[1][1] > 0.1 ) ) ) ) );
+
+
+
+Formula 43: FA pi[0] FA pi[1] :  not (  always ( (  eventually (  ( pi[0][0] < 50 ) ) ) --> ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+
+Formula 44: FA pi[0] E pi[1] :  always (  not (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) );
+
+
+
+Formula 45: FA pi[0] E pi[1] : ( (  ( pi[0][1] > 50 ) )  and  (  ( pi[1][1] > 50 ) ) )  until  (  ( pi[0][0] < 0.1 ) );
+
+
+
+Formula 46: FA pi[0] E pi[1] E pi[2] : (  always (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) ) --> (  ( pi[2][1] > 0.1 ) );
+
+
+
+Formula 47: E pi[0] E pi[1] E pi[2] : (  always (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) )  and  (  ( pi[0][0] < 0.1 ) );
+
+
+
+Formula 48: E pi[0] FA pi[1] : (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) ) --> (  always (  ( pi[0][0] < 6.3375 ) ) );
+
+
+
+Formula 49: E pi[0] FA pi[1] :  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) );
+
+
+
+Formula 50: FA pi[0] FA pi[1] FA pi[2] : ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  and  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+
+
+
+Variability (DIFFERENT TRAINING SAMPLES):
+
+|U_1| = 50
+|U_2| = 50
+|U_3| = 50
+|U|   = 146
+Variability   = 0.96
+
+
+
+Ratio of false positives:
+
+ratio_false_positives_1 = 0.26
+ratio_false_positives_2 = 0.18
+ratio_false_positives_3 = 0.26
+
+Average = 0.2333333333333333 +- 0.03771236166328255
+
+
+
+Ratio of false negatives:
+
+ratio_false_negatives_1 = 0.58
+ratio_false_negatives_2 = 0.44
+ratio_false_negatives_3 = 0.54
+
+Average = 0.52 +- 0.05887840577551896
+\Second run with the same traces as Experiment 1:
+
+
+Formula 1: E pi[0] FA pi[1] E pi[2] : (  always (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) ) )  until  (  not (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) );
+
+
+Formula 2: FA pi[0] FA pi[1] FA pi[2] : (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) )  until  (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 15.693750000000001 ) );
+
+
+Formula 3: E pi[0] E pi[1] FA pi[2] :  always ( (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 46.88125 ) )  or  ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 4: FA pi[0] FA pi[1] :  not (  not ( ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) )  and  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 5: FA pi[0] E pi[1] :  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) );
+
+
+Formula 6: FA pi[0] E pi[1] FA pi[2] : ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) --> (  always (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+Formula 7: E pi[0] FA pi[1] : (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) )  or  (  eventually (  ( pi[1][1] > 50 ) ) );
+
+
+Formula 8: E pi[0] FA pi[1] : (  ( pi[0][1] > 50 ) )  until  (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) );
+
+
+Formula 9: FA pi[0] FA pi[1] E pi[2] : ( (  always (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) )  until  ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) )  until  (  ( pi[1][0] < 0.1 ) );
+
+
+Formula 10: E pi[0] : (  ( pi[0][0] < 6.3375 ) )  and  (  always (  ( pi[0][0] < 6.3375 ) ) );
+
+
+Formula 11: E pi[0] FA pi[1] E pi[2] : (  ( pi[1][0] < 0.1 ) )  until  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+Formula 12: FA pi[0] E pi[1] FA pi[2] :  always ( (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) )  and  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 3.21875 ) ) );
+
+
+Formula 13: FA pi[0] :  ( pi[0][0] < 0.1 );
+
+
+Formula 14: E pi[0] FA pi[1] FA pi[2] : (  eventually (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 3.21875 ) ) )  until  (  not (  ( pi[1][0] < 3.21875 ) ) );
+
+
+Formula 15: FA pi[0] :  eventually (  always (  eventually (  ( pi[0][0] < 0.1 ) ) ) );
+
+
+Formula 16: FA pi[0] E pi[1] E pi[2] : ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) )  or  (  always (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 50 ) ) );
+
+
+Formula 17: E pi[0] FA pi[1] E pi[2] : ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  or  (  eventually (  not (  ( pi[2][0] < 50 ) ) ) );
+
+
+Formula 18: E pi[0] FA pi[1] :  eventually (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 19: E pi[0] E pi[1] FA pi[2] :  eventually ( (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) --> (  eventually (  ( pi[0][0] < 0.1 ) ) ) );
+
+
+Formula 20: E pi[0] E pi[1] : ( (  ( pi[0][0] < 0.1 ) ) --> (  ( pi[1][1] > 0.1 ) ) ) --> (  eventually (  ( pi[0][1] > 50 ) ) );
+
+
+Formula 21: E pi[0] E pi[1] E pi[2] : (  ( pi[2][1] > 50 ) )  until  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+Formula 22: FA pi[0] E pi[1] E pi[2] : (  eventually (  always (  not (  ( pi[1][1] > 0.1 ) ) ) ) )  until  (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 12.575000000000001 ) );
+
+
+Formula 23: FA pi[0] FA pi[1] :  always (  not ( (  eventually (  ( pi[0][0] < 50 ) ) )  and  (  ( pi[1][1] > 0.1 ) ) ) );
+
+
+Formula 24: E pi[0] E pi[1] FA pi[2] :  always ( (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) )  until  (  ( pi[0][0] < 0.1 ) ) );
+
+
+Formula 25: FA pi[0] :  not (  eventually (  ( pi[0][1] > 0.1 ) ) );
+
+
+Formula 26: FA pi[0] FA pi[1] E pi[2] :  not (  not (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+Formula 27: E pi[0] E pi[1] FA pi[2] : ( ( abs( pi[0][0] - pi[1][0] ) < 50 ) ) --> (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+Formula 28: FA pi[0] FA pi[1] E pi[2] : (  not (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) )  until  (  eventually (  always (  ( pi[0][0] < 0.1 ) ) ) );
+
+
+Formula 29: FA pi[0] FA pi[1] FA pi[2] : (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) )  or  (  always (  ( pi[2][1] > 46.88125 ) ) );
+
+
+Formula 30: E pi[0] E pi[1] E pi[2] :  eventually ( ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) )  until  (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 12.575000000000001 ) ) );
+
+
+Formula 31: E pi[0] E pi[1] : ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) )  and  (  ( pi[0][0] < 0.1 ) );
+
+
+Formula 32: E pi[0] E pi[1] FA pi[2] : (  eventually ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) )  or  (  eventually (  always (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 50 ) ) ) );
+
+
+Formula 33: E pi[0] FA pi[1] :  always (  not (  always ( (  ( pi[0][0] < 0.1 ) ) --> (  ( pi[1][1] > 0.1 ) ) ) ) );
+
+
+Formula 34: E pi[0] :  eventually (  ( pi[0][0] < 0.1 ) );
+
+
+Formula 35: E pi[0] E pi[1] :  always (  eventually ( (  ( pi[0][0] < 0.1 ) )  or  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) ) );
+
+
+Formula 36: E pi[0] FA pi[1] E pi[2] : ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) )  and  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+Formula 37: E pi[0] FA pi[1] : (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) )  until  (  always (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 6.3375 ) ) ) );
+
+
+Formula 38: E pi[0] E pi[1] FA pi[2] : (  eventually (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) )  or  (  ( pi[1][0] < 0.1 ) );
+
+
+Formula 39: FA pi[0] E pi[1] FA pi[2] :  eventually ( (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) ) --> (  always (  ( pi[2][0] < 0.1 ) ) ) );
+
+
+Formula 40: E pi[0] E pi[1] E pi[2] :  not ( (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) --> (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) );
+
+
+Formula 41: E pi[0] FA pi[1] FA pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) )  until  (  eventually (  ( pi[0][0] < 0.1 ) ) );
+
+
+Formula 42: FA pi[0] E pi[1] : (  always ( (  ( pi[0][1] > 50 ) )  and  (  ( pi[1][0] < 0.1 ) ) ) )  until  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+Formula 43: E pi[0] FA pi[1] :  not (  eventually (  always (  eventually (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) ) ) );
+
+
+Formula 44: E pi[0] : (  not (  ( pi[0][0] < 0.1 ) ) ) --> ( (  ( pi[0][1] > 50 ) )  until  (  ( pi[0][0] < 0.1 ) ) );
+
+
+Formula 45: FA pi[0] FA pi[1] FA pi[2] : (  always (  eventually (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) ) ) --> (  ( pi[1][1] > 50 ) );
+
+
+Formula 46: FA pi[0] :  not (  eventually ( (  always (  ( pi[0][1] > 0.1 ) ) )  or  (  ( pi[0][1] > 0.1 ) ) ) );
+
+
+Formula 47: E pi[0] FA pi[1] E pi[2] : (  ( pi[2][1] > 46.88125 ) )  until  (  always (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) ) );
+
+
+Formula 48: E pi[0] E pi[1] FA pi[2] : (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 46.88125 ) )  until  (  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 49: FA pi[0] E pi[1] :  always (  always ( ( abs( pi[0][1] - pi[1][1] ) < 3.21875 ) ) );
+
+
+Formula 50: E pi[0] E pi[1] E pi[2] :  not (  always (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) );
+
+
+\Third run with the same traces as Experiment 1:
+
+
+Formula 1: FA pi[0] FA pi[1] FA pi[2] : (  ( pi[2][0] < 0.1 ) )  and  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+Formula 2: FA pi[0] E pi[1] E pi[2] : (  not (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) )  and  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+Formula 3: FA pi[0] : (  eventually (  ( pi[0][0] < 50 ) ) ) --> (  not (  ( pi[0][1] > 0.1 ) ) );
+
+
+Formula 4: FA pi[0] :  eventually ( (  ( pi[0][1] > 0.1 ) ) --> (  ( pi[0][0] < 0.1 ) ) );
+
+
+Formula 5: E pi[0] E pi[1] E pi[2] : (  ( pi[2][0] < 0.1 ) )  and  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+Formula 6: FA pi[0] :  always ( (  always (  ( pi[0][0] < 6.3375 ) ) )  until  (  ( pi[0][0] < 6.3375 ) ) );
+
+
+Formula 7: E pi[0] FA pi[1] FA pi[2] :  not (  always (  not (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 15.693750000000001 ) ) ) );
+
+
+Formula 8: FA pi[0] FA pi[1] E pi[2] :  always (  not (  always (  not (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) ) ) );
+
+
+Formula 9: FA pi[0] FA pi[1] :  not (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 10: E pi[0] E pi[1] :  not (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) );
+
+
+Formula 11: E pi[0] E pi[1] E pi[2] : (  always ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) )  or  (  eventually (  not (  ( pi[2][1] > 0.1 ) ) ) );
+
+
+Formula 12: FA pi[0] FA pi[1] FA pi[2] :  not (  always (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) );
+
+
+Formula 13: E pi[0] :  eventually ( (  ( pi[0][1] > 46.88125 ) )  until  (  not (  ( pi[0][0] < 3.21875 ) ) ) );
+
+
+Formula 14: FA pi[0] FA pi[1] E pi[2] : (  not (  ( pi[1][0] < 0.1 ) ) ) --> (  not (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) ) );
+
+
+Formula 15: FA pi[0] FA pi[1] : ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) --> (  eventually (  ( pi[0][0] < 0.1 ) ) );
+
+
+Formula 16: E pi[0] FA pi[1] FA pi[2] : (  eventually ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) )  or  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+Formula 17: FA pi[0] FA pi[1] :  always ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) );
+
+
+Formula 18: E pi[0] FA pi[1] FA pi[2] :  always ( ( (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 50 ) )  until  (  ( pi[1][0] < 0.1 ) ) )  until  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) );
+
+
+Formula 19: FA pi[0] E pi[1] : ( ( abs( pi[0][1] - pi[1][1] ) < 50 ) ) --> (  always (  ( pi[1][0] < 6.3375 ) ) );
+
+
+Formula 20: FA pi[0] FA pi[1] FA pi[2] : ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) )  and  (  eventually (  eventually (  always (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) ) ) );
+
+
+Formula 21: E pi[0] E pi[1] FA pi[2] : (  ( pi[2][0] < 0.1 ) )  and  (  always ( ( abs( pi[0][0] - pi[1][0] ) < 6.3375 ) ) );
+
+
+Formula 22: FA pi[0] FA pi[1] E pi[2] : (  eventually (  ( pi[2][0] < 0.1 ) ) )  until  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+Formula 23: FA pi[0] E pi[1] E pi[2] : (  ( pi[0][0] < 0.1 ) )  and  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+Formula 24: E pi[0] FA pi[1] FA pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) ) --> ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) );
+
+
+Formula 25: FA pi[0] FA pi[1] FA pi[2] :  not ( (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) )  until  (  ( pi[1][1] > 0.1 ) ) );
+
+
+Formula 26: FA pi[0] E pi[1] E pi[2] :  not (  always (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) );
+
+
+Formula 27: FA pi[0] E pi[1] : (  ( pi[0][0] < 0.1 ) )  and  (  ( pi[1][0] < 0.1 ) );
+
+
+Formula 28: E pi[0] E pi[1] : ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  until  (  ( pi[1][0] < 0.1 ) );
+
+
+Formula 29: FA pi[0] FA pi[1] E pi[2] : (  ( pi[0][1] > 50 ) )  or  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+Formula 30: FA pi[0] E pi[1] FA pi[2] : ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) )  or  (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 50 ) );
+
+
+Formula 31: FA pi[0] :  ( pi[0][0] < 0.1 );
+
+
+Formula 32: FA pi[0] E pi[1] FA pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) ) --> (  always (  ( pi[0][0] < 6.3375 ) ) );
+
+
+Formula 33: E pi[0] E pi[1] FA pi[2] :  always ( (  always (  ( pi[2][1] > 46.88125 ) ) )  or  ( ( abs( pi[0][0] - pi[1][0] ) < 3.21875 ) ) );
+
+
+Formula 34: E pi[0] FA pi[1] E pi[2] : (  eventually (  ( pi[1][1] > 50 ) ) )  until  (  always (  always (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) ) ) );
+
+
+Formula 35: E pi[0] FA pi[1] :  eventually (  not ( (  not ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) )  and  (  ( pi[1][1] > 0.1 ) ) ) );
+
+
+Formula 36: FA pi[0] E pi[1] FA pi[2] : (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) )  and  (  eventually (  ( pi[1][0] < 0.1 ) ) );
+
+
+Formula 37: FA pi[0] E pi[1] E pi[2] : (  always (  ( pi[1][1] > 0.1 ) ) ) --> ( (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 50 ) )  or  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) );
+
+
+Formula 38: E pi[0] :  ( pi[0][0] < 0.1 );
+
+
+Formula 39: FA pi[0] E pi[1] FA pi[2] : ( ( abs( pi[0][0] - pi[1][0] ) < 46.88125 ) ) --> ( (  always (  ( pi[1][0] < 3.21875 ) ) ) --> (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 46.88125 ) ) );
+
+
+Formula 40: FA pi[0] FA pi[1] : (  not ( ( abs( pi[0][1] - pi[1][1] ) < 46.88125 ) ) )  or  (  eventually (  not (  ( pi[1][0] < 3.21875 ) ) ) );
+
+
+Formula 41: FA pi[0] E pi[1] E pi[2] : ( (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 50 ) )  or  ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) )  until  (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+Formula 42: E pi[0] E pi[1] : ( abs( pi[0][0] - pi[1][0] ) < 0.1 );
+
+
+Formula 43: FA pi[0] FA pi[1] FA pi[2] : (  ( pi[1][0] < 50 ) ) --> (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) );
+
+
+Formula 44: FA pi[0] E pi[1] E pi[2] : (  eventually (  ( pi[2][0] < 0.1 ) ) )  and  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) );
+
+
+Formula 45: E pi[0] FA pi[1] FA pi[2] :  always ( (  ( pi[2][1] > 0.1 ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) );
+
+
+Formula 46: FA pi[0] FA pi[1] E pi[2] : (  not (  (( pi[0][0] + pi[1][0] + pi[2][0] ) > 0.1 ) ) )  until  (  ( pi[0][0] < 0.1 ) );
+
+
+Formula 47: FA pi[0] FA pi[1] FA pi[2] :  not ( (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 50 ) ) --> (  always ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) ) ) );
+
+
+Formula 48: E pi[0] FA pi[1] FA pi[2] : ( (  (( pi[0][1] + pi[1][1] + pi[2][1] ) < 0.1 ) )  until  ( ( abs( pi[0][0] - pi[1][0] ) < 0.1 ) ) )  or  (  ( pi[1][1] > 50 ) );
+
+
+Formula 49: FA pi[0] E pi[1] : ( ( ( abs( pi[0][1] - pi[1][1] ) < 0.1 ) )  and  (  ( pi[1][1] > 50 ) ) )  or  (  ( pi[0][0] < 0.1 ) );
+
+
+Formula 50: FA pi[0] : (  always (  ( pi[0][0] < 0.1 ) ) )  until  (  not (  ( pi[0][1] > 0.1 ) ) );
+
+
+
+
+
+Variability (SAME TRAINING SAMPLES):
+
+|U_1|      = 50
+|U_1_run2| = 50
+|U_1_run3| = 50
+|U_same_s| = 148
+Variability = 0.98
+
+
+
+Computational time (seconds):
+
+time_learning_1 = 2950.9566271305084
+time_learning_2 = 1222.7839686870575
+time_learning_3 = 1178.1132566928864
+
+Average = 1783.9512841701508 +- 825.3988817539606
+time_learning_1_run2 = 8.35426664352417
+time_learning_1_run3 = 12.238548517227173
+
+Total_time = 5372.447443723679     (~1.4923465121454662 hours)
+
+
+
+
+
+List of seeds used:
+
+For the data: same as the template setting.
+For the learning process:
+seed_learning_free_1 = 106954
+seed_learning_free_2 = 467101
+seed_learning_free_3 = 861702
+seed_learning_free_1_run2 = 664015
+seed_learning_free_1_run3 = 556821
